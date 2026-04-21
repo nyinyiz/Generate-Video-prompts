@@ -1,0 +1,618 @@
+[
+  {
+    "id": "2026-04-21-daily-life-001",
+    "date": "2026-04-21",
+    "category": "Daily Life",
+    "title": "The Quiet Morning Reset",
+    "prompt": "Hook: Show the exact second a messy room becomes manageable.\nVisual: A hand opens curtains, makes the bed, and clears one surface in smooth close-ups.\nTone: Calm, encouraging, and satisfying.\nKeep it under 60 seconds with a soft before-and-after rhythm.",
+    "tags": [
+      "morning",
+      "reset",
+      "routine",
+      "calm"
+    ],
+    "createdAt": "2026-04-21T07:15:00.000Z"
+  },
+  {
+    "id": "2026-04-21-human-nature-001",
+    "date": "2026-04-21",
+    "category": "Human Nature",
+    "title": "Why We Delay the Small Things",
+    "prompt": "Hook: Open with the surprising reason people avoid tiny tasks.\nVisual: Split-screen of a blinking inbox, an unwashed cup, and a phone face-down on a desk.\nTone: Curious, relatable, and lightly humorous.\nEnd with a simple nudge toward one tiny next step.",
+    "tags": [
+      "procrastination",
+      "psychology",
+      "relatable",
+      "habits"
+    ],
+    "createdAt": "2026-04-21T08:05:00.000Z"
+  },
+  {
+    "id": "2026-04-21-health-001",
+    "date": "2026-04-21",
+    "category": "Health",
+    "title": "Water Before Coffee",
+    "prompt": "Hook: Make hydration feel like a tiny upgrade, not a lecture.\nVisual: A glass fills slowly beside a steaming mug, with sunrise light on the counter.\nTone: Fresh, practical, and reassuring.\nShow one easy morning habit viewers can copy immediately.",
+    "tags": [
+      "hydration",
+      "morning",
+      "wellness",
+      "habit"
+    ],
+    "createdAt": "2026-04-21T09:00:00.000Z"
+  },
+  {
+    "id": "2026-04-21-technology-001",
+    "date": "2026-04-21",
+    "category": "Technology",
+    "title": "The Assistant in Your Pocket",
+    "prompt": "Hook: Start with a task nobody wants to do, then hand it to an AI assistant.\nVisual: Fast cuts of drafting, summarizing, and organizing on a clean phone screen.\nTone: Energetic, futuristic, and useful.\nKeep the demo concrete so it feels like real life, not a concept reel.",
+    "tags": [
+      "ai",
+      "productivity",
+      "mobile",
+      "future"
+    ],
+    "createdAt": "2026-04-21T09:42:00.000Z"
+  },
+  {
+    "id": "2026-04-21-motivation-001",
+    "date": "2026-04-21",
+    "category": "Motivation",
+    "title": "Five Minutes Counts",
+    "prompt": "Hook: Challenge the myth that progress only matters when it's dramatic.\nVisual: A timer starts at five minutes while someone begins the first rep, draft, or page.\nTone: Direct, uplifting, and determined.\nClose on the idea that small starts build real momentum.",
+    "tags": [
+      "discipline",
+      "start-small",
+      "momentum",
+      "mindset"
+    ],
+    "createdAt": "2026-04-21T10:10:00.000Z"
+  },
+  {
+    "id": "2026-04-21-nature-001",
+    "date": "2026-04-21",
+    "category": "Nature",
+    "title": "Rain on the Window",
+    "prompt": "Hook: Let the first drops pull viewers into the scene.\nVisual: Slow macro shots of rain tracing glass, leaves shimmering, and puddles rippling.\nTone: Reflective, intimate, and soothing.\nLet the sound design do half the storytelling.",
+    "tags": [
+      "rain",
+      "atmosphere",
+      "nature",
+      "ambient"
+    ],
+    "createdAt": "2026-04-21T11:25:00.000Z"
+  },
+  {
+    "id": "2026-04-21-society-001",
+    "date": "2026-04-21",
+    "category": "Society",
+    "title": "The Price of Always Being Busy",
+    "prompt": "Hook: Ask what we lose when every minute is treated like a deadline.\nVisual: Crowded transit, stacked notifications, and a person pausing in the middle of the motion.\nTone: Thoughtful, slightly urgent, and human.\nEnd on one frame of stillness that feels intentional.",
+    "tags": [
+      "work",
+      "busyness",
+      "modern-life",
+      "reflection"
+    ],
+    "createdAt": "2026-04-21T12:00:00.000Z"
+  },
+  {
+    "id": "2026-04-20-daily-life-001",
+    "date": "2026-04-20",
+    "category": "Daily Life",
+    "title": "Sunday Laundry Therapy",
+    "prompt": "Hook: Turn a chore into a tiny ritual people actually want to watch.\nVisual: Warm light, folded stacks, spinning drum shots, and a fresh shirt being hung neatly.\nTone: Cozy, grounded, and oddly satisfying.\nKeep the pacing gentle and tactile from start to finish.",
+    "tags": [
+      "laundry",
+      "home",
+      "sunday",
+      "satisfying"
+    ],
+    "createdAt": "2026-04-20T16:20:00.000Z"
+  },
+  {
+    "id": "2026-04-20-human-nature-001",
+    "date": "2026-04-20",
+    "category": "Human Nature",
+    "title": "We Remember Feelings, Not Details",
+    "prompt": "Hook: Open with a line that reframes how memory really works.\nVisual: Quick flashes of a birthday, a goodbye, and a hallway lit by evening sun.\nTone: Tender, introspective, and a little nostalgic.\nMake the viewer feel the truth before explaining it.",
+    "tags": [
+      "memory",
+      "emotion",
+      "nostalgia",
+      "storytelling"
+    ],
+    "createdAt": "2026-04-20T17:05:00.000Z"
+  },
+  {
+    "id": "2026-04-20-health-001",
+    "date": "2026-04-20",
+    "category": "Health",
+    "title": "The Two-Minute Walk Break",
+    "prompt": "Hook: Show how a short walk can change the whole afternoon.\nVisual: Someone stands up from a desk, steps outside, and returns with visibly softer shoulders.\nTone: Gentle, practical, and relieving.\nMake it feel achievable even on the busiest day.",
+    "tags": [
+      "movement",
+      "break",
+      "desk-job",
+      "health"
+    ],
+    "createdAt": "2026-04-20T13:30:00.000Z"
+  },
+  {
+    "id": "2026-04-20-technology-001",
+    "date": "2026-04-20",
+    "category": "Technology",
+    "title": "A Cleaner Desktop",
+    "prompt": "Hook: Start with a cluttered desktop and promise instant clarity.\nVisual: Files snap into folders, tabs close, and a minimalist workspace emerges in one smooth sequence.\nTone: Crisp, organized, and satisfying.\nShow the transformation as a tiny productivity win.",
+    "tags": [
+      "organization",
+      "desktop",
+      "productivity",
+      "workflow"
+    ],
+    "createdAt": "2026-04-20T14:12:00.000Z"
+  },
+  {
+    "id": "2026-04-20-motivation-001",
+    "date": "2026-04-20",
+    "category": "Motivation",
+    "title": "Finish the Ugly Draft",
+    "prompt": "Hook: Call out perfectionism before it gets another win.\nVisual: A rough draft appears on screen, with messy scribbles, edits, and a final confident save.\nTone: Honest, gritty, and empowering.\nRemind viewers that unfinished is easier to fix than unstarted.",
+    "tags": [
+      "writing",
+      "perfectionism",
+      "drafting",
+      "courage"
+    ],
+    "createdAt": "2026-04-20T15:45:00.000Z"
+  },
+  {
+    "id": "2026-04-20-nature-001",
+    "date": "2026-04-20",
+    "category": "Nature",
+    "title": "Wind Through Grass",
+    "prompt": "Hook: Invite the viewer to notice a sound they usually ignore.\nVisual: Tall grass sways in layered waves under a wide sky with slow lateral camera movement.\nTone: Spacious, peaceful, and restorative.\nLet the scene breathe with minimal text and long holds.",
+    "tags": [
+      "grass",
+      "wind",
+      "wide-shots",
+      "peaceful"
+    ],
+    "createdAt": "2026-04-20T18:10:00.000Z"
+  },
+  {
+    "id": "2026-04-20-society-001",
+    "date": "2026-04-20",
+    "category": "Society",
+    "title": "The Sound of a Shared City",
+    "prompt": "Hook: Open with the idea that cities are made of overlapping lives.\nVisual: Street vendors, cyclists, bus doors, and crosswalks layered in quick rhythmic cuts.\nTone: Lively, observant, and community-minded.\nMake it feel like a love letter to ordinary public spaces.",
+    "tags": [
+      "city",
+      "community",
+      "urban",
+      "rhythm"
+    ],
+    "createdAt": "2026-04-20T19:00:00.000Z"
+  },
+  {
+    "id": "2026-04-19-daily-life-001",
+    "date": "2026-04-19",
+    "category": "Daily Life",
+    "title": "The Last Ten Minutes Before Leaving",
+    "prompt": "Hook: Capture that frantic pre-exit scramble everyone knows.\nVisual: Keys, shoes, water bottle, and one last glance at the mirror in fast but readable cuts.\nTone: Playful, rushed, and relatable.\nEnd with the door closing on a neat final frame.",
+    "tags": [
+      "morning-rush",
+      "routine",
+      "relatable",
+      "household"
+    ],
+    "createdAt": "2026-04-19T07:40:00.000Z"
+  },
+  {
+    "id": "2026-04-19-human-nature-001",
+    "date": "2026-04-19",
+    "category": "Human Nature",
+    "title": "Why Praise Feels Better in Private",
+    "prompt": "Hook: Ask why a quiet compliment can land deeper than a public one.\nVisual: A small side conversation, a smile, and a subtle shift in posture after kind words.\nTone: Warm, observant, and thoughtful.\nKeep it intimate enough to feel true.",
+    "tags": [
+      "kindness",
+      "social-behavior",
+      "empathy",
+      "connection"
+    ],
+    "createdAt": "2026-04-19T08:18:00.000Z"
+  },
+  {
+    "id": "2026-04-19-health-001",
+    "date": "2026-04-19",
+    "category": "Health",
+    "title": "Stretching Between Meetings",
+    "prompt": "Hook: Show a body asking for a reset after too much sitting.\nVisual: Simple shoulder rolls, a standing reach, and a short neck stretch beside a laptop.\nTone: Supportive, practical, and relieving.\nMake the movement look doable in real office clothes.",
+    "tags": [
+      "stretching",
+      "desk-health",
+      "mobility",
+      "workday"
+    ],
+    "createdAt": "2026-04-19T11:05:00.000Z"
+  },
+  {
+    "id": "2026-04-19-technology-001",
+    "date": "2026-04-19",
+    "category": "Technology",
+    "title": "When the App Learns You",
+    "prompt": "Hook: Introduce an app that feels one step ahead of your needs.\nVisual: Personalized suggestions appear as the user moves through a work session and a commute.\nTone: Smart, modern, and slightly uncanny.\nBalance usefulness with a hint of caution.",
+    "tags": [
+      "personalization",
+      "apps",
+      "ai",
+      "future"
+    ],
+    "createdAt": "2026-04-19T12:22:00.000Z"
+  },
+  {
+    "id": "2026-04-19-motivation-001",
+    "date": "2026-04-19",
+    "category": "Motivation",
+    "title": "Do It Before You Feel Ready",
+    "prompt": "Hook: Say the line people need when they are waiting for confidence.\nVisual: A person steps into the frame, takes a breath, and presses record, submit, or publish.\nTone: Brave, direct, and energizing.\nKeep the message short enough to hit hard in one watch.",
+    "tags": [
+      "confidence",
+      "action",
+      "courage",
+      "start"
+    ],
+    "createdAt": "2026-04-19T13:00:00.000Z"
+  },
+  {
+    "id": "2026-04-19-nature-001",
+    "date": "2026-04-19",
+    "category": "Nature",
+    "title": "Morning Light on Water",
+    "prompt": "Hook: Let the light itself become the first reveal.\nVisual: Sunlight glitters across moving water while shoreline details drift in and out of focus.\nTone: Serene, luminous, and quietly awe-filled.\nUse slow motion and gentle ambient sound for a dreamy finish.",
+    "tags": [
+      "light",
+      "water",
+      "sunrise",
+      "calm"
+    ],
+    "createdAt": "2026-04-19T06:55:00.000Z"
+  },
+  {
+    "id": "2026-04-19-society-001",
+    "date": "2026-04-19",
+    "category": "Society",
+    "title": "The Invisible Work That Holds Things Up",
+    "prompt": "Hook: Name the labor people rely on but rarely notice.\nVisual: Early shifts, cleaning hands, stocked shelves, and quiet systems running before the crowd arrives.\nTone: Respectful, grounded, and appreciative.\nFrame ordinary effort as something worthy of attention.",
+    "tags": [
+      "labor",
+      "workforce",
+      "invisible",
+      "gratitude"
+    ],
+    "createdAt": "2026-04-19T16:40:00.000Z"
+  },
+  {
+    "id": "2026-04-18-daily-life-001",
+    "date": "2026-04-18",
+    "category": "Daily Life",
+    "title": "The Desk You Can Actually Focus At",
+    "prompt": "Hook: Start with the promise of one clean surface and one clear thought.\nVisual: A cluttered desk is reduced to lamp, notebook, water, and laptop in careful steps.\nTone: Ordered, calming, and practical.\nMake every item removal feel like mental space returning.",
+    "tags": [
+      "desk",
+      "focus",
+      "declutter",
+      "workspace"
+    ],
+    "createdAt": "2026-04-18T09:10:00.000Z"
+  },
+  {
+    "id": "2026-04-18-human-nature-001",
+    "date": "2026-04-18",
+    "category": "Human Nature",
+    "title": "The Stories We Tell About Ourselves",
+    "prompt": "Hook: Reveal that identity often starts as a repeated sentence.\nVisual: A notebook of self-descriptions, reflections in glass, and a face turning toward camera.\nTone: Honest, introspective, and gently challenging.\nLeave space for the viewer to question their own script.",
+    "tags": [
+      "identity",
+      "self-talk",
+      "reflection",
+      "mindset"
+    ],
+    "createdAt": "2026-04-18T10:05:00.000Z"
+  },
+  {
+    "id": "2026-04-18-health-001",
+    "date": "2026-04-18",
+    "category": "Health",
+    "title": "Sleep Is a Skill",
+    "prompt": "Hook: Reframe sleep as something you can support on purpose.\nVisual: Night routine visuals, dimmed lights, a phone face down, and a room settling into stillness.\nTone: Reassuring, restorative, and calm.\nKeep the advice tiny and immediately actionable.",
+    "tags": [
+      "sleep",
+      "routine",
+      "recovery",
+      "night"
+    ],
+    "createdAt": "2026-04-18T21:30:00.000Z"
+  },
+  {
+    "id": "2026-04-18-technology-001",
+    "date": "2026-04-18",
+    "category": "Technology",
+    "title": "From Voice Note to Plan",
+    "prompt": "Hook: Show how a messy thought becomes an organized plan in seconds.\nVisual: A voice memo is transcribed, sorted, and turned into clear next actions on screen.\nTone: Efficient, modern, and relieving.\nKeep the transformation visible and satisfying.",
+    "tags": [
+      "voice-note",
+      "planning",
+      "ai",
+      "organization"
+    ],
+    "createdAt": "2026-04-18T14:22:00.000Z"
+  },
+  {
+    "id": "2026-04-18-motivation-001",
+    "date": "2026-04-18",
+    "category": "Motivation",
+    "title": "One Hard Thing a Day",
+    "prompt": "Hook: Give viewers a rule that feels simple but powerful.\nVisual: A checklist with one meaningful task marked off before the rest of the day fills in.\nTone: Firm, steady, and motivating.\nSuggest that consistency matters more than heroics.",
+    "tags": [
+      "discipline",
+      "checklist",
+      "consistency",
+      "focus"
+    ],
+    "createdAt": "2026-04-18T15:12:00.000Z"
+  },
+  {
+    "id": "2026-04-18-nature-001",
+    "date": "2026-04-18",
+    "category": "Nature",
+    "title": "Clouds Moving Fast",
+    "prompt": "Hook: Open on the sky as if it were alive and changing its mind.\nVisual: Time-lapse clouds sweep over ridgelines and open fields in dramatic layers.\nTone: Expansive, dramatic, and hopeful.\nLet the motion create the emotional lift.",
+    "tags": [
+      "clouds",
+      "timelapse",
+      "sky",
+      "expansive"
+    ],
+    "createdAt": "2026-04-18T17:48:00.000Z"
+  },
+  {
+    "id": "2026-04-18-society-001",
+    "date": "2026-04-18",
+    "category": "Society",
+    "title": "Who Gets the Quiet Spaces",
+    "prompt": "Hook: Ask who is allowed peace in a noisy world.\nVisual: Libraries, parks, apartment balconies, and empty benches contrasted with crowded commutes.\nTone: Reflective, questioning, and humane.\nInvite viewers to think about access, privilege, and rest.",
+    "tags": [
+      "equity",
+      "public-space",
+      "rest",
+      "society"
+    ],
+    "createdAt": "2026-04-18T18:30:00.000Z"
+  },
+  {
+    "id": "2026-04-17-daily-life-001",
+    "date": "2026-04-17",
+    "category": "Daily Life",
+    "title": "Groceries That Feel Like Care",
+    "prompt": "Hook: Turn a weekly errand into a tiny act of self-respect.\nVisual: Fresh produce, handwritten list, reusable bags, and a fridge being restocked neatly.\nTone: Nourishing, practical, and warm.\nKeep the visuals clean and intentional.",
+    "tags": [
+      "groceries",
+      "home",
+      "care",
+      "routine"
+    ],
+    "createdAt": "2026-04-17T09:25:00.000Z"
+  },
+  {
+    "id": "2026-04-17-human-nature-001",
+    "date": "2026-04-17",
+    "category": "Human Nature",
+    "title": "The Fear of Being Misunderstood",
+    "prompt": "Hook: Start with the quiet ache of not being seen correctly.\nVisual: A person rehearses a sentence, pauses, and watches words fail to land in conversation.\nTone: Vulnerable, empathetic, and sincere.\nLet the edit pace slow down at the emotional center.",
+    "tags": [
+      "fear",
+      "communication",
+      "vulnerability",
+      "understanding"
+    ],
+    "createdAt": "2026-04-17T10:40:00.000Z"
+  },
+  {
+    "id": "2026-04-17-health-001",
+    "date": "2026-04-17",
+    "category": "Health",
+    "title": "Breathe Low, Slow, and Long",
+    "prompt": "Hook: Offer a breathing pattern the viewer can feel immediately.\nVisual: Close-up chest and shoulders soften while on-screen timing guides each inhale and exhale.\nTone: Grounding, steady, and supportive.\nMake the sequence simple enough to repeat without thinking.",
+    "tags": [
+      "breathing",
+      "stress",
+      "calm",
+      "reset"
+    ],
+    "createdAt": "2026-04-17T12:05:00.000Z"
+  },
+  {
+    "id": "2026-04-17-technology-001",
+    "date": "2026-04-17",
+    "category": "Technology",
+    "title": "A Smarter Search Habit",
+    "prompt": "Hook: Show how better searching saves more time than better typing.\nVisual: Queries tighten, results improve, and highlights jump straight to the answer.\nTone: Sharp, practical, and helpful.\nKeep the screen-based story fast and readable.",
+    "tags": [
+      "search",
+      "workflow",
+      "ai",
+      "efficiency"
+    ],
+    "createdAt": "2026-04-17T13:15:00.000Z"
+  },
+  {
+    "id": "2026-04-17-motivation-001",
+    "date": "2026-04-17",
+    "category": "Motivation",
+    "title": "Progress You Can Point To",
+    "prompt": "Hook: Ask viewers to look for evidence instead of feelings.\nVisual: A visible streak, a filled notebook page, or a finished row of objects on a shelf.\nTone: Grounded, proud, and encouraging.\nShow that progress gets easier to believe when it is visible.",
+    "tags": [
+      "progress",
+      "evidence",
+      "consistency",
+      "wins"
+    ],
+    "createdAt": "2026-04-17T14:08:00.000Z"
+  },
+  {
+    "id": "2026-04-17-nature-001",
+    "date": "2026-04-17",
+    "category": "Nature",
+    "title": "The Forest After Rain",
+    "prompt": "Hook: Pull viewers into the smell and silence of a washed forest.\nVisual: Wet bark, dripping leaves, mist between trunks, and footprints on dark soil.\nTone: Fresh, immersive, and meditative.\nMake every detail feel newly revealed.",
+    "tags": [
+      "forest",
+      "rain",
+      "mist",
+      "immersive"
+    ],
+    "createdAt": "2026-04-17T18:02:00.000Z"
+  },
+  {
+    "id": "2026-04-17-society-001",
+    "date": "2026-04-17",
+    "category": "Society",
+    "title": "Small Kindness, Public Ripple",
+    "prompt": "Hook: Show how one small act can shift the tone of a whole room.\nVisual: Holding a door, sharing shade, offering directions, and the subtle reactions that follow.\nTone: Hopeful, human, and quietly uplifting.\nKeep the ending open enough to invite imitation.",
+    "tags": [
+      "kindness",
+      "community",
+      "social-behavior",
+      "hope"
+    ],
+    "createdAt": "2026-04-17T19:20:00.000Z"
+  },
+  {
+    "id": "2026-04-16-daily-life-001",
+    "date": "2026-04-16",
+    "category": "Daily Life",
+    "title": "A Fridge Worth Opening",
+    "prompt": "Hook: Turn meal prep into a visual payoff instead of a chore.\nVisual: Containers, labels, fresh greens, and a fridge door opening to a color-coordinated setup.\nTone: Satisfying, organized, and rewarding.\nMake the reveal feel like a small luxury.",
+    "tags": [
+      "meal-prep",
+      "organization",
+      "home",
+      "satisfying"
+    ],
+    "createdAt": "2026-04-16T08:35:00.000Z"
+  },
+  {
+    "id": "2026-04-16-human-nature-001",
+    "date": "2026-04-16",
+    "category": "Human Nature",
+    "title": "We Copy the People We Admire",
+    "prompt": "Hook: Start with the uncomfortable truth about influence.\nVisual: A child, a friend group, and a workplace mirror small repeated gestures and phrases.\nTone: Insightful, clear, and reflective.\nLet the pattern feel familiar without becoming preachy.",
+    "tags": [
+      "influence",
+      "identity",
+      "behavior",
+      "social"
+    ],
+    "createdAt": "2026-04-16T10:15:00.000Z"
+  },
+  {
+    "id": "2026-04-16-health-001",
+    "date": "2026-04-16",
+    "category": "Health",
+    "title": "Your Eyes Need a Pause",
+    "prompt": "Hook: Call out screen fatigue in one clean line.\nVisual: The camera pulls back from a bright display as the subject looks toward a distant window and relaxes.\nTone: Gentle, practical, and relieving.\nOffer a tiny reset that fits into any work session.",
+    "tags": [
+      "screen-time",
+      "eyes",
+      "break",
+      "health"
+    ],
+    "createdAt": "2026-04-16T11:50:00.000Z"
+  },
+  {
+    "id": "2026-04-16-technology-001",
+    "date": "2026-04-16",
+    "category": "Technology",
+    "title": "Automation Without the Hype",
+    "prompt": "Hook: Show one repetitive task vanishing from the day.\nVisual: A short workflow runs from trigger to result with a clean, simple interface and no clutter.\nTone: Confident, restrained, and useful.\nMake the benefit obvious without overexplaining the tool.",
+    "tags": [
+      "automation",
+      "workflow",
+      "tools",
+      "productivity"
+    ],
+    "createdAt": "2026-04-16T13:00:00.000Z"
+  },
+  {
+    "id": "2026-04-16-motivation-001",
+    "date": "2026-04-16",
+    "category": "Motivation",
+    "title": "Keep the Promise You Made Yourself",
+    "prompt": "Hook: Remind viewers that self-trust is built in private.\nVisual: A calendar mark, a checklist tick, and someone returning to a promise they almost skipped.\nTone: Serious, steady, and empowering.\nEnd with a quiet moment of follow-through.",
+    "tags": [
+      "self-trust",
+      "discipline",
+      "commitment",
+      "growth"
+    ],
+    "createdAt": "2026-04-16T15:30:00.000Z"
+  },
+  {
+    "id": "2026-04-16-nature-001",
+    "date": "2026-04-16",
+    "category": "Nature",
+    "title": "After Sunset, Before Dark",
+    "prompt": "Hook: Capture the brief blue moment when the day changes character.\nVisual: Streetlights begin to glow while the horizon holds a final band of color.\nTone: Tender, cinematic, and wistful.\nLet the scene feel like a pause between chapters.",
+    "tags": [
+      "dusk",
+      "twilight",
+      "sky",
+      "cinematic"
+    ],
+    "createdAt": "2026-04-16T18:45:00.000Z"
+  },
+  {
+    "id": "2026-04-16-society-001",
+    "date": "2026-04-16",
+    "category": "Society",
+    "title": "The Value of Public Patience",
+    "prompt": "Hook: Ask what happens when we stop treating everyone else like an obstacle.\nVisual: A crowded line, a shared elevator, and small gestures that reduce friction.\nTone: Measured, thoughtful, and respectful.\nFrame patience as a civic skill, not a weakness.",
+    "tags": [
+      "patience",
+      "civility",
+      "shared-space",
+      "society"
+    ],
+    "createdAt": "2026-04-16T20:10:00.000Z"
+  },
+  {
+    "id": "2026-04-21-daily-life-002",
+    "date": "2026-04-21",
+    "category": "Daily Life",
+    "title": "A Desk That Lets You Breathe",
+    "prompt": "Hook: A Desk That Lets You Breathe.\nVisual: move from clutter to clarity with readable cuts and a steady lived-in pace.\nTone: clean, steady, and emotionally relieving.\nLet the final beat land as relief, not perfection.",
+    "tags": [
+      "routine",
+      "home",
+      "lifestyle",
+      "short-form"
+    ],
+    "createdAt": "2026-04-21T08:26:34.532Z"
+  },
+  {
+    "id": "2026-04-21-human-nature-002",
+    "date": "2026-04-21",
+    "category": "Human Nature",
+    "title": "How Memory Keeps the Feeling, Not the Facts",
+    "prompt": "Hook: How Memory Keeps the Feeling, Not the Facts.\nVisual: pair observational details with restrained movement so the emotion leads the sequence.\nTone: warm, observant, and psychologically sharp.\nLet the last beat feel personal instead of preachy.",
+    "tags": [
+      "psychology",
+      "behavior",
+      "reflection",
+      "mindset"
+    ],
+    "createdAt": "2026-04-21T08:26:34.532Z"
+  }
+]
