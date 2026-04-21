@@ -118,13 +118,19 @@ npm run generate -- --count 4
 
 The repository includes `.github/workflows/update-prompts.yml`, which:
 
-- Runs at `00:00` UTC
-- Runs at `12:00` UTC
+- Runs at `12:00 PM` Asia/Bangkok
+- Runs at `12:00 AM` Asia/Bangkok
 - Installs dependencies
 - Runs `npm run generate`
-- Commits updated JSON back to `main` when changes exist
+- Only commits when `data/prompts.json` actually changes
+- Pushes the updated prompt dataset back to `main`
+- Uses a concurrency guard so overlapping scheduled runs do not stack up
 
-If you need local-time scheduling instead of UTC, adjust the cron values in the workflow.
+Notes:
+
+- GitHub Actions cron itself is UTC-based, so the workflow uses UTC cron values that map to Asia/Bangkok local time.
+- A new Vercel deployment will still happen when prompt data really changes and a new commit is pushed to `main`. That is expected and desirable.
+- No-op runs do not create commits, which helps avoid unnecessary redeploys.
 
 ## Notes
 

@@ -2,15 +2,24 @@ name: Update prompts
 
 on:
   schedule:
-    - cron: "0 0,12 * * *"
+    # 12:00 PM Asia/Bangkok (UTC+7)
+    - cron: "0 5 * * *"
+    # 12:00 AM Asia/Bangkok (UTC+7)
+    - cron: "0 17 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-prompts
+  cancel-in-progress: false
+
 jobs:
   update-prompts:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Bangkok
 
     steps:
       - name: Checkout repository
@@ -36,22 +45,22 @@ jobs:
       - name: Run generator
         run: npm run generate
 
-      - name: Detect changes
+      - name: Detect prompt dataset changes
         id: changes
         run: |
-          if [ -z "$(git status --porcelain -- '*.json' ':(glob)**/*.json')" ]; then
+          if git diff --quiet --exit-code -- data/prompts.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit updated JSON
+      - name: Commit updated prompt dataset
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -- '*.json' ':(glob)**/*.json'
-          git commit -m "chore: update generated prompts"
+          git add data/prompts.json
+          git commit -m "chore: update generated prompts [skip ci]"
 
       - name: Push changes
         if: steps.changes.outputs.changed == 'true'
