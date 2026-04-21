@@ -676,5 +676,39 @@
     "lighting": "Speckled 'forest floor' light filtered through thick canopies.",
     "audio": "The sound of moving water: ripples, waves, or steady mountain streams.",
     "createdAt": "2026-04-21T11:29:42.112Z"
+  },
+  {
+    "id": "2026-04-21-society-002",
+    "date": "2026-04-21",
+    "category": "Society",
+    "title": "How a City Sounds When You Really Listen",
+    "prompt": "Hook: How a City Sounds When You Really Listen.\nVisual: contrast motion and stillness across streets, transit, public spaces, and everyday labor.\nTone: thoughtful, humane, and quietly urgent.\nEnd on one image that turns the social point into a human feeling.",
+    "tags": [
+      "society",
+      "culture",
+      "community",
+      "observation"
+    ],
+    "camera": "Telephoto compression to show the density and energy of a city.",
+    "lighting": "Mixed city lighting: neon signs, streetlights, and shop windows.",
+    "audio": "Layered city soundscapes: traffic hum, muffled voices, sirens.",
+    "createdAt": "2026-04-21T17:19:27.071Z"
+  },
+  {
+    "id": "2026-04-21-daily-life-003",
+    "date": "2026-04-21",
+    "category": "Daily Life",
+    "title": "Making Laundry Feel Like a Win",
+    "prompt": "Hook: Making Laundry Feel Like a Win.\nVisual: track a simple routine through natural light, clean surfaces, and one satisfying final frame.\nTone: warm, practical, and reassuring.\nFinish with one simple habit viewers can copy today.",
+    "tags": [
+      "routine",
+      "home",
+      "lifestyle",
+      "short-form"
+    ],
+    "camera": "Static tripod with slow, controlled pans to emphasize order.",
+    "lighting": "Warm golden hour glow to enhance the cozy, satisfying atmosphere.",
+    "audio": "Clean foley: the sharp click of a switch, water pouring, or rhythmic folding.",
+    "createdAt": "2026-04-21T17:19:27.071Z"
   }
 ]
