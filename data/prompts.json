@@ -614,5 +614,33 @@
       "mindset"
     ],
     "createdAt": "2026-04-21T08:26:34.532Z"
+  },
+  {
+    "id": "2026-04-21-health-002",
+    "date": "2026-04-21",
+    "category": "Health",
+    "title": "A Tiny Habit for Better Energy",
+    "prompt": "Hook: A Tiny Habit for Better Energy.\nVisual: show simple movement, natural light, and practical habits in clean everyday environments.\nTone: fresh, practical, and reassuring.\nClose with one action simple enough to try immediately.",
+    "tags": [
+      "wellness",
+      "habit",
+      "energy",
+      "health"
+    ],
+    "createdAt": "2026-04-21T08:46:17.546Z"
+  },
+  {
+    "id": "2026-04-21-technology-002",
+    "date": "2026-04-21",
+    "category": "Technology",
+    "title": "When the App Learns Your Rhythm",
+    "prompt": "Hook: When the App Learns Your Rhythm.\nVisual: pair tech moments with real-life context so the usefulness feels immediate.\nTone: futuristic without losing everyday realism.\nLet the final frame show technology serving a real human need.",
+    "tags": [
+      "ai",
+      "productivity",
+      "tools",
+      "technology"
+    ],
+    "createdAt": "2026-04-21T08:46:17.546Z"
   }
 ]
