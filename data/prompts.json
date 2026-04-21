@@ -710,5 +710,39 @@
     "lighting": "Warm golden hour glow to enhance the cozy, satisfying atmosphere.",
     "audio": "Clean foley: the sharp click of a switch, water pouring, or rhythmic folding.",
     "createdAt": "2026-04-21T17:19:27.071Z"
+  },
+  {
+    "id": "2026-04-21-human-nature-003",
+    "date": "2026-04-21",
+    "category": "Human Nature",
+    "title": "Why Small Kindness Hits So Hard",
+    "prompt": "Hook: Why Small Kindness Hits So Hard.\nVisual: anchor abstract ideas in familiar micro-moments people instantly recognize.\nTone: reflective, human, and gently challenging.\nFinish with a question that stays with the viewer after the scroll.",
+    "tags": [
+      "psychology",
+      "behavior",
+      "reflection",
+      "mindset"
+    ],
+    "camera": "Over-the-shoulder perspective to place the viewer in the conversation.",
+    "lighting": "Natural, unpolished light to maintain a raw, documentary-style truth.",
+    "audio": "Atmospheric room tone: soft wind or distant, muffled city life.",
+    "createdAt": "2026-04-21T23:12:10.010Z"
+  },
+  {
+    "id": "2026-04-21-health-003",
+    "date": "2026-04-21",
+    "category": "Health",
+    "title": "The Two-Minute Walk That Resets a Day",
+    "prompt": "Hook: The Two-Minute Walk That Resets a Day.\nVisual: use gentle pacing, uncluttered spaces, and visible relief in posture or mood.\nTone: grounded, healthy, and easy to trust.\nLet the last shot feel like relief, not pressure.",
+    "tags": [
+      "wellness",
+      "habit",
+      "energy",
+      "health"
+    ],
+    "camera": "Steady tracking shots that move at a relaxed, walking pace.",
+    "lighting": "Clean, clinical but warm lighting for a trustworthy health feel.",
+    "audio": "Minimalist electronic pulses that emphasize focus and flow.",
+    "createdAt": "2026-04-21T23:12:10.010Z"
   }
 ]
