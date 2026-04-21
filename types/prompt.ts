@@ -18,5 +18,6 @@ export interface PromptRecord {
   prompt: string;
   tags: string[];
   createdAt: string;
+  updatedAt?: string;
 }
 

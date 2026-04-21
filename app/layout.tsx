@@ -1,16 +1,22 @@
 import type { Metadata } from "next";
-import { Fraunces, Manrope } from "next/font/google";
+import { Geist, Instrument_Serif, Geist_Mono } from "next/font/google";
 import type { ReactNode } from "react";
 import "./globals.css";
 
-const sans = Manrope({
+const sans = Geist({
   subsets: ["latin"],
   variable: "--font-sans",
 });
 
-const serif = Fraunces({
+const mono = Geist_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+});
+
+const serif = Instrument_Serif({
   subsets: ["latin"],
   variable: "--font-serif",
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${sans.variable} ${serif.variable} font-sans antialiased`}>
+      <body className={`${sans.variable} ${serif.variable} ${mono.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>

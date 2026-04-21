@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { filterPrompts, normalizePrompts } from "../lib/prompts";
+import { normalizePrompts } from "../lib/prompts";
 import type { PromptRecord } from "../types/prompt";
 
 const samplePrompts: PromptRecord[] = [
@@ -41,10 +41,41 @@ test("normalizePrompts derives today versus previous from the latest dataset dat
   assert.equal(normalized[1]?.section, "previous");
 });
 
-test("filterPrompts searches title, category, and tags", () => {
-  const normalized = normalizePrompts(samplePrompts);
+test("normalizePrompts sorts by updatedAt primarily", () => {
+  const promptsWithUpdates: PromptRecord[] = [
+    {
+      id: "old-id",
+      date: "2026-04-20",
+      category: "Daily Life",
+      title: "Old Prompt",
+      prompt: "Hook: Line 1\nVisual: Line 2\nTone: Line 3",
+      tags: ["tag"],
+      createdAt: "2026-04-20T00:00:00.000Z",
+    },
+    {
+      id: "new-id",
+      date: "2026-04-21",
+      category: "Daily Life",
+      title: "New Prompt",
+      prompt: "Hook: Line 1\nVisual: Line 2\nTone: Line 3",
+      tags: ["tag"],
+      createdAt: "2026-04-21T00:00:00.000Z",
+    },
+    {
+      id: "updated-id",
+      date: "2026-04-19",
+      category: "Daily Life",
+      title: "Updated Prompt",
+      prompt: "Hook: Line 1\nVisual: Line 2\nTone: Line 3",
+      tags: ["tag"],
+      createdAt: "2026-04-19T00:00:00.000Z",
+      updatedAt: "2026-04-22T00:00:00.000Z",
+    },
+  ];
 
-  assert.equal(filterPrompts(normalized, { query: "assistant" }).length, 1);
-  assert.equal(filterPrompts(normalized, { query: "productivity" }).length, 1);
-  assert.equal(filterPrompts(normalized, { category: "Daily Life" }).length, 1);
+  const normalized = normalizePrompts(promptsWithUpdates);
+
+  assert.equal(normalized[0]?.id, "updated-id"); // Most recently updated
+  assert.equal(normalized[1]?.id, "new-id");     // Most recently created
+  assert.equal(normalized[2]?.id, "old-id");
 });

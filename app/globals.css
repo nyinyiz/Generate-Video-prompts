@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light;
+  --canvas: #fbfbfa;
+  --surface: #ffffff;
+  --border: rgba(0, 0, 0, 0.06);
+  --text-primary: #111111;
+  --text-secondary: #787774;
+  --accent-pale: #fdebec;
 }
 
 html {
@@ -12,30 +17,51 @@ html {
 
 body {
   min-height: 100vh;
-  background:
-    radial-gradient(circle at top left, rgba(251, 191, 36, 0.14), transparent 28%),
-    radial-gradient(circle at top right, rgba(56, 189, 248, 0.12), transparent 24%),
-    linear-gradient(180deg, #fcfaf7 0%, #f6f0e6 100%);
-  color: #0f172a;
+  background-color: var(--canvas);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(247, 246, 243, 0.5) 0, transparent 50%),
+    radial-gradient(at 50% 0%, rgba(234, 234, 234, 0.3) 0, transparent 50%);
+  color: var(--text-primary);
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3, h4 {
   font-family: var(--font-serif), ui-serif, Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+.font-mono {
+  font-family: var(--font-mono), monospace;
 }
 
 ::selection {
-  background: rgba(148, 163, 184, 0.35);
-  color: #0f172a;
+  background: var(--accent-pale);
+  color: var(--text-primary);
 }
 
-* {
-  box-sizing: border-box;
+@layer base {
+  * {
+    @apply border-[#EAEAEA];
+  }
 }
 
-button,
-input {
-  font: inherit;
+.asymmetric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .asymmetric-grid {
+    grid-template-columns: 1.5fr 1fr;
+  }
+  .asymmetric-grid > *:nth-child(3n+1) {
+    grid-column: span 1;
+  }
+  .asymmetric-grid > *:nth-child(3n+2) {
+    grid-column: span 1;
+  }
+  .asymmetric-grid > *:nth-child(3n) {
+    grid-column: span 2;
+  }
 }

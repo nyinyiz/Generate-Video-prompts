@@ -52,7 +52,8 @@ export function isPromptRecord(value: unknown): value is PromptRecord {
     isNonEmptyString(record.prompt) &&
     hasValidPromptLines(record.prompt) &&
     isStringArray(record.tags) &&
-    isIsoDateTime(record.createdAt)
+    isIsoDateTime(record.createdAt) &&
+    (record.updatedAt === undefined || isIsoDateTime(record.updatedAt))
   );
 }
 

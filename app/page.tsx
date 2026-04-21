@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { CategoryFilter } from "../components/category-filter";
 import { Header } from "../components/header";
+import { TopBar } from "../components/top-bar";
 import { PromptCard } from "../components/prompt-card";
 import {
   filterPrompts,
@@ -16,113 +17,98 @@ const promptCategories = getPromptCategories(prompts);
 export default function HomePage() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("All");
+  const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
 
   const filteredPrompts = useMemo(() => {
     return filterPrompts(prompts, { query, category });
   }, [category, query]);
 
-  const todayPrompts = filteredPrompts.filter((prompt) => prompt.section === "today");
-  const previousPrompts = filteredPrompts.filter((prompt) => prompt.section === "previous");
-
   const visibleCount = filteredPrompts.length;
 
   return (
     <main className="min-h-screen">
-      <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
-        <Header totalCount={prompts.length} visibleCount={visibleCount} />
+      <TopBar totalCount={prompts.length} visibleCount={visibleCount} />
+      
+      <div className="mx-auto flex w-full max-w-6xl flex-col px-6 pt-12 pb-24">
+        <Header />
 
-        <section className="space-y-4 rounded-[2rem] border border-white/60 bg-white/75 p-4 shadow-[0_20px_60px_rgba(15,23,42,0.06)] backdrop-blur sm:p-6">
-          <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-end">
-            <div className="space-y-2">
-              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">
-                Browse prompts
-              </p>
-              <h2 className="text-lg font-semibold text-slate-900 sm:text-xl">
-                Search by title, category, or tags.
-              </h2>
-            </div>
+        <section className="mt-24 space-y-12">
+          {/* Sticky Filter Bar */}
+          <div className="sticky top-[73px] z-40 -mx-6 bg-[#fbfbfa]/95 px-6 py-8 backdrop-blur-sm border-b border-[#EAEAEA]">
+            <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+              <div className="flex-1 max-w-xl">
+                <label className="relative block">
+                  <span className="sr-only">Search prompts</span>
+                  <input
+                    type="search"
+                    value={query}
+                    onChange={(event) => setQuery(event.target.value)}
+                    placeholder="Filter by keyword..."
+                    className="h-10 w-full border-b border-[#EAEAEA] bg-transparent text-lg text-[#111111] outline-none transition placeholder:text-[#787774] focus:border-[#111111]"
+                  />
+                </label>
+              </div>
 
-            <label className="relative block">
-              <span className="sr-only">Search prompts</span>
-              <svg
-                aria-hidden="true"
-                viewBox="0 0 24 24"
-                fill="none"
-                className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"
-              >
-                <path
-                  d="M21 21l-4.3-4.3m1.3-5.2A7.5 7.5 0 1 1 3 11.5a7.5 7.5 0 0 1 15 0Z"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+              <div className="flex flex-wrap items-center gap-6">
+                <CategoryFilter
+                  categories={promptCategories}
+                  activeCategory={category}
+                  onCategoryChange={setCategory}
                 />
-              </svg>
-              <input
-                type="search"
-                value={query}
-                onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search prompts"
-                className="h-12 w-full rounded-2xl border border-slate-200 bg-slate-50/90 pl-10 pr-4 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-slate-400 focus:bg-white"
-              />
-            </label>
+                
+                <div className="h-6 w-px bg-[#EAEAEA] hidden sm:block" />
+                
+                <div className="flex items-center gap-1 bg-[#F7F6F3] p-1">
+                  <button
+                    onClick={() => setViewMode("grid")}
+                    className={`px-3 py-1 font-mono text-[10px] uppercase tracking-wider transition-all ${
+                      viewMode === "grid" ? "bg-[#111111] text-white" : "text-[#787774] hover:text-[#111111]"
+                    }`}
+                  >
+                    Grid
+                  </button>
+                  <button
+                    onClick={() => setViewMode("list")}
+                    className={`px-3 py-1 font-mono text-[10px] uppercase tracking-wider transition-all ${
+                      viewMode === "list" ? "bg-[#111111] text-white" : "text-[#787774] hover:text-[#111111]"
+                    }`}
+                  >
+                    List
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <CategoryFilter
-            categories={promptCategories}
-            activeCategory={category}
-            onCategoryChange={setCategory}
-          />
+          <PromptList prompts={filteredPrompts} viewMode={viewMode} />
         </section>
-
-        <PromptSection
-          title="Today's prompts"
-          description="Fresh ideas ready for the current session."
-          prompts={todayPrompts}
-        />
-
-        <PromptSection
-          title="Previous prompts"
-          description="A longer reference shelf for reuse and refinement."
-          prompts={previousPrompts}
-        />
       </div>
     </main>
   );
 }
 
-function PromptSection({
-  title,
-  description,
-  prompts,
-}: {
-  title: string;
-  description: string;
-  prompts: PromptEntry[];
+function PromptList({ 
+  prompts, 
+  viewMode 
+}: { 
+  prompts: PromptEntry[]; 
+  viewMode: "grid" | "list";
 }) {
-  return (
-    <section className="space-y-4">
-      <div className="flex flex-wrap items-end justify-between gap-2">
-        <div className="space-y-1">
-          <h2 className="text-2xl font-semibold tracking-tight text-slate-950 sm:text-3xl">
-            {title}
-          </h2>
-          <p className="max-w-2xl text-sm leading-6 text-slate-600 sm:text-base">{description}</p>
-        </div>
-        <p className="text-sm font-medium text-slate-500">{prompts.length} prompts</p>
+  if (prompts.length === 0) {
+    return (
+      <div className="border border-dashed border-[#EAEAEA] py-20 text-center">
+        <p className="font-mono text-xs uppercase tracking-widest text-[#787774]">
+          No results found
+        </p>
       </div>
+    );
+  }
 
-      {prompts.length > 0 ? (
-        <div className="grid gap-4 md:grid-cols-2">
-          {prompts.map((prompt) => (
-            <PromptCard key={prompt.id} prompt={prompt} />
-          ))}
-        </div>
-      ) : (
-        <div className="rounded-[1.75rem] border border-dashed border-slate-300 bg-white/70 px-6 py-10 text-sm text-slate-500">
-          No prompts match the current search or category.
-        </div>
-      )}
-    </section>
+  return (
+    <div className={viewMode === "grid" ? "asymmetric-grid" : "flex flex-col gap-4"}>
+      {prompts.map((prompt) => (
+        <PromptCard key={prompt.id} prompt={prompt} variant={viewMode} />
+      ))}
+    </div>
   );
 }

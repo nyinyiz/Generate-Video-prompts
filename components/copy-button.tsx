@@ -40,15 +40,13 @@ export function CopyButton({ text }: { text: string }) {
       type="button"
       onClick={handleCopy}
       aria-label={copied ? "Prompt copied" : "Copy prompt"}
-      className={[
-        "inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-semibold transition",
+      className={`font-mono text-[10px] uppercase tracking-widest transition-all ${
         copied
-          ? "border-emerald-200 bg-emerald-50 text-emerald-700"
-          : "border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:text-slate-950",
-      ].join(" ")}
+          ? "text-[#346538]"
+          : "text-[#111111] hover:text-[#787774]"
+      }`}
     >
-      <span aria-hidden="true">{copied ? "✓" : "↗"}</span>
-      <span>{copied ? "Copied" : "Copy"}</span>
+      {copied ? "Copied" : "Copy Prompt"}
     </button>
   );
 }

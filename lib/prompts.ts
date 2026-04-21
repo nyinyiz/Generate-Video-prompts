@@ -13,6 +13,7 @@ export type PromptEntry = {
   tags: string[];
   prompt: string;
   createdAt: string;
+  updatedAt?: string;
 };
 
 type PromptFilter = {
@@ -43,14 +44,17 @@ function isPromptEntry(value: unknown): value is PromptEntry {
     typeof entry.category === "string" &&
     isStringArray(entry.tags) &&
     typeof entry.prompt === "string" &&
-    typeof entry.createdAt === "string"
+    typeof entry.createdAt === "string" &&
+    (entry.updatedAt === undefined || typeof entry.updatedAt === "string")
   );
 }
 
 function comparePrompts(left: PromptRecord, right: PromptRecord) {
+  const leftTime = left.updatedAt || left.createdAt;
+  const rightTime = right.updatedAt || right.createdAt;
   return (
+    rightTime.localeCompare(leftTime) ||
     right.date.localeCompare(left.date) ||
-    right.createdAt.localeCompare(left.createdAt) ||
     left.title.localeCompare(right.title)
   );
 }

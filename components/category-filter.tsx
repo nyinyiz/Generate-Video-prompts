@@ -10,29 +10,26 @@ export function CategoryFilter({
   onCategoryChange: (category: string) => void;
 }) {
   return (
-    <div className="-mx-1 overflow-x-auto pb-1">
-      <div className="flex min-w-max gap-2 px-1">
-        {categories.map((category) => {
-          const isActive = category === activeCategory;
+    <div className="flex flex-wrap gap-2">
+      {categories.map((category) => {
+        const isActive = category === activeCategory;
 
-          return (
-            <button
-              key={category}
-              type="button"
-              onClick={() => onCategoryChange(category)}
-              aria-pressed={isActive}
-              className={[
-                "rounded-full border px-4 py-2 text-sm font-medium transition",
-                isActive
-                  ? "border-slate-900 bg-slate-900 text-white shadow-sm"
-                  : "border-slate-200 bg-white/80 text-slate-600 hover:border-slate-300 hover:text-slate-900",
-              ].join(" ")}
-            >
-              {category}
-            </button>
-          );
-        })}
-      </div>
+        return (
+          <button
+            key={category}
+            type="button"
+            onClick={() => onCategoryChange(category)}
+            aria-pressed={isActive}
+            className={`px-3 py-1 font-mono text-[11px] uppercase tracking-wider transition-all ${
+              isActive
+                ? "bg-[#111111] text-white"
+                : "bg-[#F7F6F3] text-[#787774] hover:bg-[#EAEAEA]"
+            }`}
+          >
+            {category}
+          </button>
+        );
+      })}
     </div>
   );
 }
