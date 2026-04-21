@@ -642,5 +642,39 @@
       "technology"
     ],
     "createdAt": "2026-04-21T08:46:17.546Z"
+  },
+  {
+    "id": "2026-04-21-motivation-002",
+    "date": "2026-04-21",
+    "category": "Motivation",
+    "title": "Momentum Starts Smaller Than You Think",
+    "prompt": "Hook: Momentum Starts Smaller Than You Think.\nVisual: build tension through countdowns, first reps, first words, or the first click of publish.\nTone: steady, uplifting, and action-oriented.\nFinish on the idea that consistency beats intensity.",
+    "tags": [
+      "motivation",
+      "discipline",
+      "action",
+      "growth"
+    ],
+    "camera": "Close-ups on sweat, strained muscles, or focused eyes.",
+    "lighting": "Dramatically silhouetted subjects against a bright, rising sun.",
+    "audio": "Intense, breathy sound design mixed close to the microphone.",
+    "createdAt": "2026-04-21T11:29:42.112Z"
+  },
+  {
+    "id": "2026-04-21-nature-002",
+    "date": "2026-04-21",
+    "category": "Nature",
+    "title": "Wind Through an Open Field",
+    "prompt": "Hook: Wind Through an Open Field.\nVisual: let the environment carry the story with minimal text and patient framing.\nTone: serene, tactile, and deeply present.\nLet the last frame hold just long enough to become a mood.",
+    "tags": [
+      "nature",
+      "ambient",
+      "cinematic",
+      "outdoors"
+    ],
+    "camera": "Fixed, long-exposure style shots to let the elements move through the frame.",
+    "lighting": "Speckled 'forest floor' light filtered through thick canopies.",
+    "audio": "The sound of moving water: ripples, waves, or steady mountain streams.",
+    "createdAt": "2026-04-21T11:29:42.112Z"
   }
 ]
