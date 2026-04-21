@@ -53,7 +53,10 @@ export function isPromptRecord(value: unknown): value is PromptRecord {
     hasValidPromptLines(record.prompt) &&
     isStringArray(record.tags) &&
     isIsoDateTime(record.createdAt) &&
-    (record.updatedAt === undefined || isIsoDateTime(record.updatedAt))
+    (record.updatedAt === undefined || isIsoDateTime(record.updatedAt)) &&
+    (record.camera === undefined || typeof record.camera === "string") &&
+    (record.lighting === undefined || typeof record.lighting === "string") &&
+    (record.audio === undefined || typeof record.audio === "string")
   );
 }
 

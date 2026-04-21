@@ -19,5 +19,8 @@ export interface PromptRecord {
   tags: string[];
   createdAt: string;
   updatedAt?: string;
+  camera?: string;
+  lighting?: string;
+  audio?: string;
 }
 

@@ -74,6 +74,29 @@ export function PromptCard({
         </p>
       </div>
 
+      {(prompt.camera || prompt.lighting || prompt.audio) && (
+        <div className="mt-8 grid grid-cols-1 gap-4 border-t border-[#F7F6F3] pt-8 sm:grid-cols-3">
+          {prompt.camera && (
+            <div className="space-y-1">
+              <span className="font-mono text-[9px] uppercase tracking-widest text-[#787774]">Camera</span>
+              <p className="text-xs text-[#111111]">{prompt.camera}</p>
+            </div>
+          )}
+          {prompt.lighting && (
+            <div className="space-y-1">
+              <span className="font-mono text-[9px] uppercase tracking-widest text-[#787774]">Lighting</span>
+              <p className="text-xs text-[#111111]">{prompt.lighting}</p>
+            </div>
+          )}
+          {prompt.audio && (
+            <div className="space-y-1">
+              <span className="font-mono text-[9px] uppercase tracking-widest text-[#787774]">Audio</span>
+              <p className="text-xs text-[#111111]">{prompt.audio}</p>
+            </div>
+          )}
+        </div>
+      )}
+
       <div className="mt-8 flex flex-wrap gap-2 pt-6 border-t border-[#F7F6F3]">
         {prompt.tags.map((tag) => (
           <span

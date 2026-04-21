@@ -28,6 +28,9 @@ type PromptTemplate = {
   emotionalTones: string[];
   closes: string[];
   tags: string[];
+  cameras: string[];
+  lightings: string[];
+  audios: string[];
 };
 
 const promptTemplates: Record<PromptCategory, PromptTemplate> = {
@@ -58,6 +61,24 @@ const promptTemplates: Record<PromptCategory, PromptTemplate> = {
       "Close with a before-and-after contrast that feels earned.",
     ],
     tags: ["routine", "home", "lifestyle", "short-form"],
+    cameras: [
+      "Handheld with subtle natural shake for an authentic, lived-in feel.",
+      "Static tripod with slow, controlled pans to emphasize order.",
+      "Macro lens for extreme close-ups on textures and small movements.",
+      "Eye-level perspective to maintain a relatable, personal connection.",
+    ],
+    lightings: [
+      "Soft morning window light creating gentle shadows and high clarity.",
+      "Warm golden hour glow to enhance the cozy, satisfying atmosphere.",
+      "Bright, even daylight for a clean, energized productivity look.",
+      "Low-contrast, diffused lighting for a calm and restorative mood.",
+    ],
+    audios: [
+      "Ambient household sounds: distant birds, a ticking clock, soft fabric rustling.",
+      "Clean foley: the sharp click of a switch, water pouring, or rhythmic folding.",
+      "Soft, minimal lo-fi beats with a focus on steady, calming tempo.",
+      "Natural silence broken only by the primary tactile action in the scene.",
+    ],
   },
   "Human Nature": {
     titles: [
@@ -86,6 +107,24 @@ const promptTemplates: Record<PromptCategory, PromptTemplate> = {
       "Let the last beat feel personal instead of preachy.",
     ],
     tags: ["psychology", "behavior", "reflection", "mindset"],
+    cameras: [
+      "Close-up portrait framing to capture subtle shifts in expression.",
+      "Slow push-in to create a sense of intimacy and discovery.",
+      "Over-the-shoulder perspective to place the viewer in the conversation.",
+      "Static medium shots to allow the subject's behavior to lead the frame.",
+    ],
+    lightings: [
+      "Moody, side-lit setups to emphasize depth and internal reflection.",
+      "Soft, warm interior lighting for a sense of safety and vulnerability.",
+      "Natural, unpolished light to maintain a raw, documentary-style truth.",
+      "Subtle rim lighting to separate the subject from a dark, focused background.",
+    ],
+    audios: [
+      "Restrained, emotive piano notes with plenty of space between keys.",
+      "Clear, intimate voiceover with a warm, conversational texture.",
+      "Atmospheric room tone: soft wind or distant, muffled city life.",
+      "Heightened focus on micro-sounds: a deep breath, a pen on paper.",
+    ],
   },
   Health: {
     titles: [
@@ -114,6 +153,24 @@ const promptTemplates: Record<PromptCategory, PromptTemplate> = {
       "Let the last shot feel like relief, not pressure.",
     ],
     tags: ["wellness", "habit", "energy", "health"],
+    cameras: [
+      "Wide, spacious framing to emphasize room to breathe and move.",
+      "Follow-cam at waist height for an active, encouraging perspective.",
+      "Top-down flatlay for clear, organized habit demonstrations.",
+      "Steady tracking shots that move at a relaxed, walking pace.",
+    ],
+    lightings: [
+      "High-key, bright natural light to symbolize energy and clarity.",
+      "Soft, cool blue tones for evening routines and sleep prep.",
+      "Warm, dappled sunlight for outdoor movement and vitality.",
+      "Clean, clinical but warm lighting for a trustworthy health feel.",
+    ],
+    audios: [
+      "Crisp, refreshing sound design: water splashing, deep exhales.",
+      "Rhythmic, mid-tempo acoustic tracks that feel steady and upbeat.",
+      "Natural outdoor soundscapes: rustling leaves, distant water.",
+      "Minimalist electronic pulses that emphasize focus and flow.",
+    ],
   },
   Technology: {
     titles: [
@@ -142,6 +199,24 @@ const promptTemplates: Record<PromptCategory, PromptTemplate> = {
       "Let the final frame show technology serving a real human need.",
     ],
     tags: ["ai", "productivity", "tools", "technology"],
+    cameras: [
+      "Sharp, high-definition macro shots of screens and tactile tech.",
+      "Fast, rhythmic jump cuts to mimic digital speed and efficiency.",
+      "Stable, low-angle shots of devices to make them feel powerful.",
+      "Over-the-shoulder POV for an immersive 'user experience' feel.",
+    ],
+    lightings: [
+      "Cool-toned, modern LEDs with subtle neon or cyan accents.",
+      "High-contrast, dark environments to make screens pop with clarity.",
+      "Clean, white studio lighting for a premium, minimalist tech look.",
+      "Natural window light reflecting off glass for a realistic, daily-use feel.",
+    ],
+    audios: [
+      "Satisfying digital haptics: subtle pings, sweeps, and UI clicks.",
+      "Driving, synth-heavy background tracks with a high-tech pulse.",
+      "Clean, dry voiceover that sounds authoritative and precise.",
+      "Muted, low-frequency atmospheric hums for a sense of scale.",
+    ],
   },
   Motivation: {
     titles: [
@@ -170,6 +245,24 @@ const promptTemplates: Record<PromptCategory, PromptTemplate> = {
       "Let the final beat feel earned rather than inspirational for its own sake.",
     ],
     tags: ["motivation", "discipline", "action", "growth"],
+    cameras: [
+      "Dynamic, shaky handheld shots to convey effort and grit.",
+      "Close-ups on sweat, strained muscles, or focused eyes.",
+      "Low-angle hero shots to build a sense of power and overcome.",
+      "Rapid tracking shots that keep pace with intense movement.",
+    ],
+    lightings: [
+      "Harsh, high-contrast lighting to emphasize texture and struggle.",
+      "Dramatically silhouetted subjects against a bright, rising sun.",
+      "Cold, industrial lighting for a serious, disciplined atmosphere.",
+      "Warm, lens-flare heavy sunbeams to symbolize hope and reward.",
+    ],
+    audios: [
+      "Heavy, cinematic percussion with a deep, heartbeat-like thud.",
+      "Intense, breathy sound design mixed close to the microphone.",
+      "Orchestral swells that build tension and resolve with power.",
+      "Gritty, lo-fi rock or blues for a 'hard work' aesthetic.",
+    ],
   },
   Nature: {
     titles: [
@@ -198,6 +291,24 @@ const promptTemplates: Record<PromptCategory, PromptTemplate> = {
       "Let the last frame hold just long enough to become a mood.",
     ],
     tags: ["nature", "ambient", "cinematic", "outdoors"],
+    cameras: [
+      "Drone-like sweeping wide shots for a sense of majestic scale.",
+      "Macro lens for droplets, leaves, and intricate natural textures.",
+      "Slow-motion capture to emphasize the grace of natural movement.",
+      "Fixed, long-exposure style shots to let the elements move through the frame.",
+    ],
+    lightings: [
+      "Authentic 'Golden Hour' light with long, soft, orange shadows.",
+      "Cool, misty 'Blue Hour' tones for a mysterious, quiet feel.",
+      "Harsh, dramatic storm light with dark skies and bright highlights.",
+      "Speckled 'forest floor' light filtered through thick canopies.",
+    ],
+    audios: [
+      "High-fidelity field recordings: heavy rain, wind in pines, birdsong.",
+      "Deep, resonant drone pads that blend into the environmental sound.",
+      "Subtle, organic percussion like wooden blocks or soft chimes.",
+      "The sound of moving water: ripples, waves, or steady mountain streams.",
+    ],
   },
   Society: {
     titles: [
@@ -226,6 +337,24 @@ const promptTemplates: Record<PromptCategory, PromptTemplate> = {
       "Let the final beat connect systems back to ordinary people.",
     ],
     tags: ["society", "culture", "community", "observation"],
+    cameras: [
+      "Telephoto compression to show the density and energy of a city.",
+      "Low-angle, 'street-level' perspective to keep it grounded.",
+      "Static wide shots of public spaces to watch the choreography of life.",
+      "Quick, rhythmic panning between different people and actions.",
+    ],
+    lightings: [
+      "Mixed city lighting: neon signs, streetlights, and shop windows.",
+      "Flat, midday sun to capture the unvarnished reality of the street.",
+      "Warm evening light hitting glass buildings for a cinematic urban feel.",
+      "High-contrast shadows in alleys and underpasses for a gritty texture.",
+    ],
+    audios: [
+      "Layered city soundscapes: traffic hum, muffled voices, sirens.",
+      "Rhythmic, jazz-influenced or hip-hop beats with a street pulse.",
+      "Documentary-style interview snippets or ambient 'vox pop' noise.",
+      "Industrial, mechanical sounds mixed into a steady musical rhythm.",
+    ],
   },
 };
 
@@ -320,6 +449,10 @@ function buildPromptText(category: PromptCategory, variantIndex: number) {
   const tone = template.emotionalTones[variantIndex % template.emotionalTones.length];
   const close = template.closes[variantIndex % template.closes.length];
 
+  const camera = template.cameras[variantIndex % template.cameras.length];
+  const lighting = template.lightings[variantIndex % template.lightings.length];
+  const audio = template.audios[variantIndex % template.audios.length];
+
   return {
     title,
     prompt: [
@@ -329,6 +462,9 @@ function buildPromptText(category: PromptCategory, variantIndex: number) {
       close,
     ].join("\n"),
     tags: template.tags,
+    camera,
+    lighting,
+    audio,
   };
 }
 
@@ -364,7 +500,7 @@ function createPromptRecord(
   variantIndex: number,
 ): PromptRecord {
   const date = toDateString(now);
-  const { title, prompt, tags } = buildPromptText(category, variantIndex);
+  const { title, prompt, tags, camera, lighting, audio } = buildPromptText(category, variantIndex);
 
   return {
     id: nextSequence(records, date, category),
@@ -373,6 +509,9 @@ function createPromptRecord(
     title,
     prompt,
     tags,
+    camera,
+    lighting,
+    audio,
     createdAt: now.toISOString(),
   };
 }
