@@ -14,6 +14,9 @@ export type PromptEntry = {
   prompt: string;
   createdAt: string;
   updatedAt?: string;
+  camera?: string;
+  lighting?: string;
+  audio?: string;
 };
 
 type PromptFilter = {
@@ -45,7 +48,10 @@ function isPromptEntry(value: unknown): value is PromptEntry {
     isStringArray(entry.tags) &&
     typeof entry.prompt === "string" &&
     typeof entry.createdAt === "string" &&
-    (entry.updatedAt === undefined || typeof entry.updatedAt === "string")
+    (entry.updatedAt === undefined || typeof entry.updatedAt === "string") &&
+    (entry.camera === undefined || typeof entry.camera === "string") &&
+    (entry.lighting === undefined || typeof entry.lighting === "string") &&
+    (entry.audio === undefined || typeof entry.audio === "string")
   );
 }
 
