@@ -744,5 +744,39 @@
     "lighting": "Clean, clinical but warm lighting for a trustworthy health feel.",
     "audio": "Minimalist electronic pulses that emphasize focus and flow.",
     "createdAt": "2026-04-21T23:12:10.010Z"
+  },
+  {
+    "id": "2026-04-22-technology-001",
+    "date": "2026-04-22",
+    "category": "Technology",
+    "title": "A Cleaner Digital Workspace in Seconds",
+    "prompt": "Hook: A Cleaner Digital Workspace in Seconds.\nVisual: show phones, laptops, and hands moving through a believable workflow instead of a concept demo.\nTone: energetic, clean, and genuinely helpful.\nFinish with a payoff that feels useful, not flashy.",
+    "tags": [
+      "ai",
+      "productivity",
+      "tools",
+      "technology"
+    ],
+    "camera": "Fast, rhythmic jump cuts to mimic digital speed and efficiency.",
+    "lighting": "High-contrast, dark environments to make screens pop with clarity.",
+    "audio": "Driving, synth-heavy background tracks with a high-tech pulse.",
+    "createdAt": "2026-04-22T05:44:49.849Z"
+  },
+  {
+    "id": "2026-04-22-motivation-001",
+    "date": "2026-04-22",
+    "category": "Motivation",
+    "title": "Five Minutes Still Counts",
+    "prompt": "Hook: Five Minutes Still Counts.\nVisual: use grounded scenes of work, training, or creative effort without turning it into a montage cliché.\nTone: firm, hopeful, and momentum-building.\nLet the final beat feel earned rather than inspirational for its own sake.",
+    "tags": [
+      "motivation",
+      "discipline",
+      "action",
+      "growth"
+    ],
+    "camera": "Rapid tracking shots that keep pace with intense movement.",
+    "lighting": "Warm, lens-flare heavy sunbeams to symbolize hope and reward.",
+    "audio": "Gritty, lo-fi rock or blues for a 'hard work' aesthetic.",
+    "createdAt": "2026-04-22T05:44:49.849Z"
   }
 ]
