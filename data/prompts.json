@@ -812,5 +812,39 @@
     "lighting": "Flat, midday sun to capture the unvarnished reality of the street.",
     "audio": "Rhythmic, jazz-influenced or hip-hop beats with a street pulse.",
     "createdAt": "2026-04-22T11:28:38.316Z"
+  },
+  {
+    "id": "2026-04-22-daily-life-001",
+    "date": "2026-04-22",
+    "category": "Daily Life",
+    "title": "Leaving the House Without the Rush",
+    "prompt": "Hook: Leaving the House Without the Rush.\nVisual: show tactile close-ups of hands clearing, folding, wiping, and resetting one small space.\nTone: calm, grounding, and quietly satisfying.\nEnd on a frame that makes ordinary order feel like self-respect.",
+    "tags": [
+      "routine",
+      "home",
+      "lifestyle",
+      "short-form"
+    ],
+    "camera": "Handheld with subtle natural shake for an authentic, lived-in feel.",
+    "lighting": "Soft morning window light creating gentle shadows and high clarity.",
+    "audio": "Ambient household sounds: distant birds, a ticking clock, soft fabric rustling.",
+    "createdAt": "2026-04-22T17:18:34.974Z"
+  },
+  {
+    "id": "2026-04-22-human-nature-001",
+    "date": "2026-04-22",
+    "category": "Human Nature",
+    "title": "Why We Avoid the Tiny Tasks",
+    "prompt": "Hook: Why We Avoid the Tiny Tasks.\nVisual: use reflective surfaces, notebooks, text messages, and close-ups that make the psychology feel personal.\nTone: curious, relatable, and quietly revealing.\nClose on a small expression that carries the whole insight.",
+    "tags": [
+      "psychology",
+      "behavior",
+      "reflection",
+      "mindset"
+    ],
+    "camera": "Slow push-in to create a sense of intimacy and discovery.",
+    "lighting": "Soft, warm interior lighting for a sense of safety and vulnerability.",
+    "audio": "Clear, intimate voiceover with a warm, conversational texture.",
+    "createdAt": "2026-04-22T17:18:34.974Z"
   }
 ]
