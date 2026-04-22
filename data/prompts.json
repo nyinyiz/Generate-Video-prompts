@@ -846,5 +846,39 @@
     "lighting": "Soft, warm interior lighting for a sense of safety and vulnerability.",
     "audio": "Clear, intimate voiceover with a warm, conversational texture.",
     "createdAt": "2026-04-22T17:18:34.974Z"
+  },
+  {
+    "id": "2026-04-22-health-001",
+    "date": "2026-04-22",
+    "category": "Health",
+    "title": "Sleep Starts Before the Pillow",
+    "prompt": "Hook: Sleep Starts Before the Pillow.\nVisual: focus on clear, copyable actions rather than abstract wellness imagery.\nTone: restorative, clear, and quietly motivating.\nEnd with a calm reminder that better health can start small.",
+    "tags": [
+      "wellness",
+      "habit",
+      "energy",
+      "health"
+    ],
+    "camera": "Top-down flatlay for clear, organized habit demonstrations.",
+    "lighting": "Warm, dappled sunlight for outdoor movement and vitality.",
+    "audio": "Natural outdoor soundscapes: rustling leaves, distant water.",
+    "createdAt": "2026-04-22T23:15:22.139Z"
+  },
+  {
+    "id": "2026-04-22-technology-002",
+    "date": "2026-04-22",
+    "category": "Technology",
+    "title": "Let the Boring Task Disappear",
+    "prompt": "Hook: Let the Boring Task Disappear.\nVisual: pair tech moments with real-life context so the usefulness feels immediate.\nTone: futuristic without losing everyday realism.\nLet the final frame show technology serving a real human need.",
+    "tags": [
+      "ai",
+      "productivity",
+      "tools",
+      "technology"
+    ],
+    "camera": "Over-the-shoulder POV for an immersive 'user experience' feel.",
+    "lighting": "Natural window light reflecting off glass for a realistic, daily-use feel.",
+    "audio": "Muted, low-frequency atmospheric hums for a sense of scale.",
+    "createdAt": "2026-04-22T23:15:22.139Z"
   }
 ]
