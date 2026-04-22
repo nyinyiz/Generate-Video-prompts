@@ -778,5 +778,39 @@
     "lighting": "Warm, lens-flare heavy sunbeams to symbolize hope and reward.",
     "audio": "Gritty, lo-fi rock or blues for a 'hard work' aesthetic.",
     "createdAt": "2026-04-22T05:44:49.849Z"
+  },
+  {
+    "id": "2026-04-22-nature-001",
+    "date": "2026-04-22",
+    "category": "Nature",
+    "title": "Clouds Moving Faster Than the Day",
+    "prompt": "Hook: Clouds Moving Faster Than the Day.\nVisual: use macro moments, soft focus shifts, and wide reveals to create immersion.\nTone: soft, atmospheric, and emotionally restorative.\nClose on stillness that feels earned after the movement.",
+    "tags": [
+      "nature",
+      "ambient",
+      "cinematic",
+      "outdoors"
+    ],
+    "camera": "Slow-motion capture to emphasize the grace of natural movement.",
+    "lighting": "Harsh, dramatic storm light with dark skies and bright highlights.",
+    "audio": "Subtle, organic percussion like wooden blocks or soft chimes.",
+    "createdAt": "2026-04-22T11:28:38.316Z"
+  },
+  {
+    "id": "2026-04-22-society-001",
+    "date": "2026-04-22",
+    "category": "Society",
+    "title": "The Invisible Work Holding Everything Up",
+    "prompt": "Hook: The Invisible Work Holding Everything Up.\nVisual: show people in shared environments with rhythmic cuts that reveal systems, not just scenes.\nTone: observant, social, and emotionally grounded.\nFinish with a question that makes the viewer re-enter their own surroundings differently.",
+    "tags": [
+      "society",
+      "culture",
+      "community",
+      "observation"
+    ],
+    "camera": "Low-angle, 'street-level' perspective to keep it grounded.",
+    "lighting": "Flat, midday sun to capture the unvarnished reality of the street.",
+    "audio": "Rhythmic, jazz-influenced or hip-hop beats with a street pulse.",
+    "createdAt": "2026-04-22T11:28:38.316Z"
   }
 ]
