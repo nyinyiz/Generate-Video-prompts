@@ -16,10 +16,61 @@ const DEFAULT_COUNT = 2;
 const TITLE_DUPLICATE_THRESHOLD = 0.76;
 const PROMPT_DUPLICATE_THRESHOLD = 0.82;
 const MAX_ATTEMPTS_PER_PROMPT = 24;
+const DEFAULT_TIME_ZONE = "Asia/Bangkok";
+
+const titleAngles = [
+  "First Step",
+  "Quiet Proof",
+  "Visible Shift",
+  "Small Reset",
+  "Honest Start",
+  "Clear Signal",
+  "Next Move",
+  "Real Moment",
+  "Better Rhythm",
+  "Simple Proof",
+  "Fresh Angle",
+  "Human Detail",
+  "Tiny Turn",
+  "Open Loop",
+  "Lasting Beat",
+  "Grounded Take",
+];
+
+const titleContexts = [
+  "Right Now",
+  "At Dawn",
+  "Under Pressure",
+  "In Motion",
+  "After the Pause",
+  "Before the Leap",
+  "With Focus",
+  "In Real Time",
+  "Past the Doubt",
+  "For Today",
+  "Without Noise",
+  "In Plain Sight",
+  "After the Reset",
+  "With Clear Intent",
+  "Before the Scroll",
+  "At the Turning Point",
+];
+
+const focusDirections = [
+  "Make the first three seconds immediately readable without extra context.",
+  "Let one concrete object or gesture carry the idea through the sequence.",
+  "Build the middle beat around a small before-and-after shift viewers can feel.",
+  "Keep text overlays minimal and tied to action already visible on screen.",
+  "Use pacing changes to make the transformation feel earned instead of forced.",
+  "Give the final shot a clear emotional aftertaste that matches the hook.",
+  "Show the cost of staying still before revealing the practical turning point.",
+  "Make every cut answer the previous frame with a more specific detail.",
+];
 
 type GeneratorOptions = {
   count?: number;
   now?: Date;
+  timeZone?: string;
 };
 
 type PromptTemplate = {
@@ -371,8 +422,23 @@ function slugify(value: string) {
   return normalizeText(value).replace(/\s+/g, "-");
 }
 
-function toDateString(date: Date) {
-  return date.toISOString().slice(0, 10);
+function toDateString(date: Date, timeZone = DEFAULT_TIME_ZONE) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    day: "2-digit",
+    month: "2-digit",
+    timeZone,
+    year: "numeric",
+  }).formatToParts(date);
+  const partMap = new Map(parts.map((part) => [part.type, part.value]));
+  const year = partMap.get("year");
+  const month = partMap.get("month");
+  const day = partMap.get("day");
+
+  if (!year || !month || !day) {
+    throw new Error(`Unable to format date for time zone ${timeZone}.`);
+  }
+
+  return `${year}-${month}-${day}`;
 }
 
 function countLines(value: string) {
@@ -444,10 +510,17 @@ function parseArgs(argv: string[]) {
 
 function buildPromptText(category: PromptCategory, variantIndex: number) {
   const template = promptTemplates[category];
-  const title = template.titles[variantIndex % template.titles.length];
-  const visual = template.visuals[variantIndex % template.visuals.length];
-  const tone = template.emotionalTones[variantIndex % template.emotionalTones.length];
-  const close = template.closes[variantIndex % template.closes.length];
+  const baseTitle = template.titles[variantIndex % template.titles.length];
+  const titleAngle = titleAngles[Math.floor(variantIndex / template.titles.length) % titleAngles.length];
+  const titleContext =
+    titleContexts[
+      Math.floor(variantIndex / (template.titles.length * titleAngles.length)) % titleContexts.length
+    ];
+  const title = `${baseTitle}: ${titleAngle} ${titleContext}`;
+  const visual = template.visuals[(variantIndex * 3) % template.visuals.length];
+  const tone = template.emotionalTones[(variantIndex * 5 + 1) % template.emotionalTones.length];
+  const close = template.closes[(variantIndex * 7 + 2) % template.closes.length];
+  const focus = focusDirections[(variantIndex * 11 + promptCategories.indexOf(category)) % focusDirections.length];
 
   const camera = template.cameras[variantIndex % template.cameras.length];
   const lighting = template.lightings[variantIndex % template.lightings.length];
@@ -459,6 +532,7 @@ function buildPromptText(category: PromptCategory, variantIndex: number) {
       `Hook: ${title}.`,
       `Visual: ${visual}.`,
       `Tone: ${tone}.`,
+      `Focus: ${focus}`,
       close,
     ].join("\n"),
     tags: template.tags,
@@ -498,8 +572,9 @@ function createPromptRecord(
   category: PromptCategory,
   now: Date,
   variantIndex: number,
+  timeZone: string,
 ): PromptRecord {
-  const date = toDateString(now);
+  const date = toDateString(now, timeZone);
   const { title, prompt, tags, camera, lighting, audio } = buildPromptText(category, variantIndex);
 
   return {
@@ -534,6 +609,7 @@ export function generatePrompts(
 ) {
   const count = options.count ?? DEFAULT_COUNT;
   const now = options.now ?? new Date();
+  const timeZone = options.timeZone ?? DEFAULT_TIME_ZONE;
   const generated: PromptRecord[] = [];
 
   for (let index = 0; index < count; index += 1) {
@@ -542,7 +618,13 @@ export function generatePrompts(
     let candidate: PromptRecord | null = null;
 
     for (let attempt = 0; attempt < MAX_ATTEMPTS_PER_PROMPT; attempt += 1) {
-      const nextCandidate = createPromptRecord(records, category, now, records.length + attempt);
+      const nextCandidate = createPromptRecord(
+        records,
+        category,
+        now,
+        records.length + attempt,
+        timeZone,
+      );
 
       if (countLines(nextCandidate.prompt) < 3 || countLines(nextCandidate.prompt) > 5) {
         continue;

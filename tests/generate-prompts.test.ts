@@ -68,6 +68,60 @@ test("generatePrompts appends fully valid records with balanced categories", () 
   assert.deepEqual(categories.sort(), ["Health", "Human Nature"].sort());
 });
 
+test("generatePrompts keeps working after a category uses all base titles", () => {
+  const motivationTitles = [
+    "Five Minutes Still Counts",
+    "Do It Before You Feel Ready",
+    "One Hard Thing a Day",
+    "Finish the Ugly Draft",
+    "Momentum Starts Smaller Than You Think",
+  ];
+  const existing: PromptRecord[] = [
+    ...promptCategories.flatMap((category, categoryIndex) =>
+      Array.from({ length: category === "Motivation" ? 0 : 6 }, (_, recordIndex) =>
+        makeRecord({
+          category,
+          id: `2026-04-20-${category.toLowerCase().replace(/\s+/g, "-")}-${String(recordIndex + 1).padStart(3, "0")}`,
+          title: `${category} Existing ${recordIndex + 1}`,
+          prompt: [
+            `Hook: ${category} existing ${recordIndex + 1}.`,
+            `Visual: Show a specific movement for ${category} ${recordIndex + 1}.`,
+            "Tone: Keep it grounded, vivid, and emotionally specific.",
+            "End with a clear image or takeaway built for a short-form video.",
+          ].join("\n"),
+        }, categoryIndex),
+      ),
+    ),
+    ...motivationTitles.map((title, index) =>
+      makeRecord({
+        category: "Motivation",
+        id: `2026-04-20-motivation-${String(index + 1).padStart(3, "0")}`,
+        title,
+      }, 4),
+    ),
+  ];
+
+  const generated = generatePrompts(existing, {
+    count: 1,
+    now: new Date("2026-04-21T00:00:00.000Z"),
+  });
+
+  assert.equal(generated.length, 1);
+  assert.equal(generated[0].category, "Motivation");
+  assert.match(generated[0].title, /: /);
+  validatePromptRecords([...existing, ...generated]);
+});
+
+test("generatePrompts dates records in Bangkok time", () => {
+  const generated = generatePrompts([], {
+    count: 1,
+    now: new Date("2026-04-20T23:00:00.000Z"),
+  });
+
+  assert.equal(generated[0].date, "2026-04-21");
+  assert.match(generated[0].id, /^2026-04-21-/);
+});
+
 test("isDuplicateEntry catches near-duplicate titles or prompts", () => {
   const existing = [
     makeRecord({
