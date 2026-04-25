@@ -948,5 +948,39 @@
     "lighting": "Low-contrast, diffused lighting for a calm and restorative mood",
     "audio": "Natural silence broken only by the primary tactile action in the scene",
     "createdAt": "2026-04-25T11:19:08.993Z"
+  },
+  {
+    "id": "2026-04-26-human-nature-001",
+    "date": "2026-04-26",
+    "category": "Human Nature",
+    "title": "Why Private Praise Feels Different: Tiny Turn Right Now",
+    "prompt": "Hook: Why Private Praise Feels Different: Tiny Turn Right Now; the subject wants certainty, but the moment asks for honesty.\nScene: a quiet cafe table after a difficult conversation, following two friends noticing the silence after one honest sentence; include a mirror, loose receipt, and hand resting near the send button.\nStory: contrast what the subject says with what their hands and pauses reveal; visual direction: cut between ordinary gestures, facial reactions, and small pauses that reveal the inner shift.\nProduction: intimate portrait sequence with reflective surfaces and quiet cuts; tone: curious, relatable, and quietly revealing; camera: Close-up portrait framing to capture subtle shifts in expression; lighting: Moody, side-lit setups to emphasize depth and internal reflection; audio: Restrained, emotive piano notes with plenty of space between keys\nAvoid: stock footage of anonymous crowds with no personal anchor. Let one concrete object or gesture carry the idea through the sequence. Finish with a question that stays with the viewer after the scroll.",
+    "tags": [
+      "psychology",
+      "behavior",
+      "reflection",
+      "mindset"
+    ],
+    "camera": "Close-up portrait framing to capture subtle shifts in expression",
+    "lighting": "Moody, side-lit setups to emphasize depth and internal reflection",
+    "audio": "Restrained, emotive piano notes with plenty of space between keys",
+    "createdAt": "2026-04-25T17:12:02.755Z"
+  },
+  {
+    "id": "2026-04-26-health-001",
+    "date": "2026-04-26",
+    "category": "Health",
+    "title": "Water Before the World Wakes Up: Open Loop Right Now",
+    "prompt": "Hook: Water Before the World Wakes Up: Open Loop Right Now; the body is asking for attention before burnout becomes the main story.\nScene: a small balcony at sunrise with a glass of water on the rail, following a tired professional choosing one low-friction healthy action; include pill organizer, herbal tea, window shade, and clean bedsheet.\nStory: show tension in posture first, introduce one simple action, then reveal the physical release; visual direction: use gentle pacing, uncluttered spaces, and visible relief in posture or mood.\nProduction: mini transformation sequence focused on posture, breath, and energy; tone: restorative, clear, and quietly motivating; camera: Follow-cam at waist height for an active, encouraging perspective; lighting: Soft, cool blue tones for evening routines and sleep prep; audio: Rhythmic, mid-tempo acoustic tracks that feel steady and upbeat\nAvoid: medical claims, miracle language, and body-shaming framing. Give the final shot a clear emotional aftertaste that matches the hook. Finish on a physical cue that shows the benefit without overexplaining it.",
+    "tags": [
+      "wellness",
+      "habit",
+      "energy",
+      "health"
+    ],
+    "camera": "Follow-cam at waist height for an active, encouraging perspective",
+    "lighting": "Soft, cool blue tones for evening routines and sleep prep",
+    "audio": "Rhythmic, mid-tempo acoustic tracks that feel steady and upbeat",
+    "createdAt": "2026-04-25T17:12:02.755Z"
   }
 ]
