@@ -880,5 +880,39 @@
     "lighting": "Natural window light reflecting off glass for a realistic, daily-use feel.",
     "audio": "Muted, low-frequency atmospheric hums for a sense of scale.",
     "createdAt": "2026-04-22T23:15:22.139Z"
+  },
+  {
+    "id": "2026-04-25-motivation-001",
+    "date": "2026-04-25",
+    "category": "Motivation",
+    "title": "Five Minutes Still Counts: Tiny Turn Right Now",
+    "prompt": "Hook: Five Minutes Still Counts: Tiny Turn Right Now; the subject has proof of past failure in the frame.\nScene: a quiet gym corner before sunrise with only one light on, following a tired creator returning to work after losing confidence; include tape marks, coiled cable, rejected notes, and a blinking record light.\nStory: let effort look unpolished first, then reveal momentum through repetition; visual direction: show the first imperfect action, not the polished result, with clear physical movement.\nProduction: fitness or study reel that rejects hype and shows consistency; tone: steady, uplifting, and action-oriented; camera: Dynamic, shaky handheld shots to convey effort and grit; lighting: Harsh, high-contrast lighting to emphasize texture and struggle; audio: Heavy, cinematic percussion with a deep, heartbeat-like thud\nAvoid: montage cliches that skip the actual first action. Make the first three seconds immediately readable without extra context. Close with visible progress, even if it is tiny.",
+    "tags": [
+      "motivation",
+      "discipline",
+      "action",
+      "growth"
+    ],
+    "camera": "Dynamic, shaky handheld shots to convey effort and grit",
+    "lighting": "Harsh, high-contrast lighting to emphasize texture and struggle",
+    "audio": "Heavy, cinematic percussion with a deep, heartbeat-like thud",
+    "createdAt": "2026-04-25T05:37:33.942Z"
+  },
+  {
+    "id": "2026-04-25-nature-001",
+    "date": "2026-04-25",
+    "category": "Nature",
+    "title": "Morning Light on Water: Tiny Turn Right Now",
+    "prompt": "Hook: Morning Light on Water: Tiny Turn Right Now; scale and intimacy need to trade places across the sequence.\nScene: a quiet lakeside edge before the sun clears the horizon, following a single natural detail slowly changing under patient observation; include wild grass, coat fabric, cloud shadow, and a narrow footpath.\nStory: start macro, widen to atmosphere, then return to one detail with new meaning; visual direction: let the environment carry the story with minimal text and patient framing.\nProduction: immersive field-recording sequence where sound leads the edits; tone: soft, atmospheric, and emotionally restorative; camera: Macro lens for droplets, leaves, and intricate natural textures; lighting: Cool, misty 'Blue Hour' tones for a mysterious, quiet feel; audio: Deep, resonant drone pads that blend into the environmental sound\nAvoid: generic postcard landscapes with no tactile detail. Use pacing changes to make the transformation feel earned instead of forced. Finish with one lingering environmental sound or motion cue.",
+    "tags": [
+      "nature",
+      "ambient",
+      "cinematic",
+      "outdoors"
+    ],
+    "camera": "Macro lens for droplets, leaves, and intricate natural textures",
+    "lighting": "Cool, misty 'Blue Hour' tones for a mysterious, quiet feel",
+    "audio": "Deep, resonant drone pads that blend into the environmental sound",
+    "createdAt": "2026-04-25T05:37:33.942Z"
   }
 ]
