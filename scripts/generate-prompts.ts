@@ -84,6 +84,16 @@ type PromptTemplate = {
   audios: string[];
 };
 
+type ContextTemplate = {
+  settings: string[];
+  subjects: string[];
+  stakes: string[];
+  props: string[];
+  progressions: string[];
+  formats: string[];
+  avoids: string[];
+};
+
 const promptTemplates: Record<PromptCategory, PromptTemplate> = {
   "Daily Life": {
     titles: [
@@ -409,6 +419,317 @@ const promptTemplates: Record<PromptCategory, PromptTemplate> = {
   },
 };
 
+const contextTemplates: Record<PromptCategory, ContextTemplate> = {
+  "Daily Life": {
+    settings: [
+      "a compact apartment kitchen before anyone else wakes up",
+      "a sunlit desk beside a half-open window",
+      "a laundry corner with warm towels and a small folding surface",
+      "a hallway entry table crowded with keys, receipts, and shoes",
+    ],
+    subjects: [
+      "a working adult trying to reclaim ten calm minutes",
+      "a parent resetting one corner of the home between responsibilities",
+      "a student making a small space feel usable again",
+      "a creator preparing the room before the real work starts",
+    ],
+    stakes: [
+      "the day feels noisy before it has even begun",
+      "one ignored mess keeps pulling attention away from the next task",
+      "the subject needs a visible win before momentum disappears",
+      "ordinary clutter is quietly shaping the mood of the whole room",
+    ],
+    props: [
+      "a chipped mug, soft cloth, timer, and stack of folded fabric",
+      "keys, a notebook, tangled charger, and one small tray",
+      "fresh towel, laundry basket, wooden hanger, and morning light",
+      "sticky notes, water glass, pen, and a cleared rectangle of desk",
+    ],
+    progressions: [
+      "start with one cramped frame, reveal the small decision, then widen as the space settles",
+      "move from hesitation to one repeated action, then show the room becoming easier to breathe in",
+      "cut between tiny tactile wins until the final frame feels lighter than the first",
+      "show the subject choosing one manageable corner instead of trying to fix everything",
+    ],
+    formats: [
+      "vertical lifestyle short with tactile inserts and clean natural pacing",
+      "quiet before-and-after sequence with no exaggerated transformation",
+      "POV reset built around hands, surfaces, and satisfying sound cues",
+      "micro-documentary moment that makes a normal routine feel intentional",
+    ],
+    avoids: [
+      "perfect showroom staging, fake smiles, and unrealistic spotless interiors",
+      "generic productivity slogans or text that explains what the image already shows",
+      "fast cleaning montage cliches that erase the human pace of the action",
+      "visual clutter that makes the final change hard to read",
+    ],
+  },
+  "Human Nature": {
+    settings: [
+      "a quiet cafe table after a difficult conversation",
+      "a bedroom mirror lit by a single warm lamp",
+      "a bus window reflection during the ride home",
+      "an office stairwell where someone pauses before replying",
+    ],
+    subjects: [
+      "a person replaying a small interaction that mattered more than expected",
+      "two friends noticing the silence after one honest sentence",
+      "a colleague deciding whether to send the vulnerable message",
+      "someone catching their own pattern in an ordinary reflection",
+    ],
+    stakes: [
+      "the emotion is small enough to hide but strong enough to change the next choice",
+      "one private assumption is shaping the whole scene",
+      "the subject wants certainty, but the moment asks for honesty",
+      "a familiar defense mechanism is visible before the person names it",
+    ],
+    props: [
+      "an unread message, paper cup, jacket sleeve, and fogged glass",
+      "a notebook margin, pen mark, phone screen, and dim lamp",
+      "two chairs, a half-finished drink, and a table between them",
+      "a mirror, loose receipt, and hand resting near the send button",
+    ],
+    progressions: [
+      "begin with a reaction, reveal the thought behind it, then land on a more generous interpretation",
+      "contrast what the subject says with what their hands and pauses reveal",
+      "let the insight arrive through one repeated gesture instead of a lecture",
+      "move from guarded body language to one small sign of openness",
+    ],
+    formats: [
+      "observational micro-drama with restrained voiceover",
+      "psychology reel built from familiar social details",
+      "intimate portrait sequence with reflective surfaces and quiet cuts",
+      "documentary-style vignette where behavior carries the lesson",
+    ],
+    avoids: [
+      "therapy buzzwords, preachy narration, or obvious moralizing",
+      "overacted sadness and melodramatic reaction shots",
+      "abstract symbolism that makes the human moment harder to recognize",
+      "stock footage of anonymous crowds with no personal anchor",
+    ],
+  },
+  Health: {
+    settings: [
+      "a small balcony at sunrise with a glass of water on the rail",
+      "a quiet office corner between meetings",
+      "a bedroom floor with soft evening light and a phone set face down",
+      "a neighborhood sidewalk just after rain",
+    ],
+    subjects: [
+      "a tired professional choosing one low-friction healthy action",
+      "a beginner rebuilding trust with their body through small movement",
+      "someone protecting their evening routine from another late scroll",
+      "a person using a tiny habit to interrupt a draining day",
+    ],
+    stakes: [
+      "energy is low and the habit has to feel doable, not heroic",
+      "the subject needs relief before discipline can make sense",
+      "the choice is small, but it changes the direction of the next hour",
+      "the body is asking for attention before burnout becomes the main story",
+    ],
+    props: [
+      "water glass, sneakers, towel, and a phone timer",
+      "yoga mat, desk chair, blue light reflection, and notebook",
+      "pill organizer, herbal tea, window shade, and clean bedsheet",
+      "rain jacket, earbuds, step counter, and wet pavement",
+    ],
+    progressions: [
+      "show tension in posture first, introduce one simple action, then reveal the physical release",
+      "move from mental fog to a clear repeatable cue the viewer can copy",
+      "keep the habit tiny and show how the subject makes it easier to start",
+      "contrast screen fatigue with a grounded sensory reset",
+    ],
+    formats: [
+      "practical wellness short with copyable steps and cinematic restraint",
+      "gentle habit demo filmed like a calm daily ritual",
+      "POV body reset with tactile sound and visible relief",
+      "mini transformation sequence focused on posture, breath, and energy",
+    ],
+    avoids: [
+      "medical claims, miracle language, and body-shaming framing",
+      "extreme fitness imagery that makes the habit feel unreachable",
+      "generic smoothie-and-sunrise wellness stock shots",
+      "busy overlays that distract from the simple action",
+    ],
+  },
+  Technology: {
+    settings: [
+      "a shared workspace with a laptop, phone, and messy task list",
+      "a kitchen table turned into a night work setup",
+      "a commuter train seat where a voice note becomes a plan",
+      "a clean product desk with cables, tabs, and one visible bottleneck",
+    ],
+    subjects: [
+      "a solo operator turning scattered inputs into one clear next step",
+      "a creator using automation to protect creative energy",
+      "a small business owner replacing a repetitive admin loop",
+      "a student organizing research before the deadline pressure spikes",
+    ],
+    stakes: [
+      "the tool has to prove usefulness in seconds, not just look futuristic",
+      "manual friction is stealing time from the work that matters",
+      "the subject is close to overwhelm until the workflow becomes visible",
+      "one boring task is blocking a more human decision",
+    ],
+    props: [
+      "voice memo waveform, calendar card, keyboard, and sticky task list",
+      "messy browser tabs, charging cable, notebook, and progress indicator",
+      "phone notification, laptop dock, coffee, and a clean export screen",
+      "spreadsheet, chat window, timer, and a completed checklist",
+    ],
+    progressions: [
+      "show the messy input, the tool interpreting it, then the useful output in a real context",
+      "cut from repeated manual steps to one smoother automated sequence",
+      "make the interface readable while the human benefit stays emotionally clear",
+      "start with friction, reveal the workflow, then end on time returned",
+    ],
+    formats: [
+      "screen-led product demo with human context and crisp macro shots",
+      "before-and-after workflow reel with readable UI states",
+      "day-in-the-life tech vignette where usefulness beats spectacle",
+      "POV productivity short built around one practical automation",
+    ],
+    avoids: [
+      "fake holograms, unreadable interfaces, and vague AI magic",
+      "floating buzzwords that never connect to a concrete task",
+      "overly glossy product shots with no human stakes",
+      "screen glare or fast cuts that hide the workflow payoff",
+    ],
+  },
+  Motivation: {
+    settings: [
+      "a quiet gym corner before sunrise with only one light on",
+      "a bedroom desk at midnight beside a half-finished draft",
+      "an empty basketball court after rain",
+      "a small studio floor marked by tape, cables, and old attempts",
+    ],
+    subjects: [
+      "a beginner choosing the first imperfect rep",
+      "a tired creator returning to work after losing confidence",
+      "someone rebuilding discipline after a visible setback",
+      "a student starting before they feel ready",
+    ],
+    stakes: [
+      "waiting has started to feel safer than trying",
+      "the first action matters because confidence is not available yet",
+      "the subject has proof of past failure in the frame",
+      "the scene turns motivation into a physical choice, not a slogan",
+    ],
+    props: [
+      "scuffed sneakers, phone timer, marked calendar, and cold coffee",
+      "unfinished notebook page, hoodie sleeve, laptop glow, and red pen",
+      "wet court lines, worn ball, breath in cold air, and empty bleachers",
+      "tape marks, coiled cable, rejected notes, and a blinking record light",
+    ],
+    progressions: [
+      "open on avoidance, show the smallest possible start, then make the next action feel inevitable",
+      "let effort look unpolished first, then reveal momentum through repetition",
+      "contrast the evidence of quitting with one visible decision to continue",
+      "build from stillness to motion without pretending the doubt disappears",
+    ],
+    formats: [
+      "cinematic discipline short grounded in one real action",
+      "creator comeback vignette with tactile work details",
+      "fitness or study reel that rejects hype and shows consistency",
+      "POV first-step sequence with a clear emotional turn",
+    ],
+    avoids: [
+      "generic motivational quotes, fake applause, and overdramatic victory shots",
+      "perfect hero framing before the subject has earned it",
+      "luxury success imagery that disconnects from the starting point",
+      "montage cliches that skip the actual first action",
+    ],
+  },
+  Nature: {
+    settings: [
+      "a forest path right after rain with dark soil and bright leaves",
+      "a quiet lakeside edge before the sun clears the horizon",
+      "a windswept field where grass moves in uneven waves",
+      "a window looking out at storm clouds crossing the afternoon",
+    ],
+    subjects: [
+      "a single natural detail slowly changing under patient observation",
+      "the landscape itself treated as the main character",
+      "a small human presence made quiet by the scale of the environment",
+      "weather, texture, and light carrying the emotional arc",
+    ],
+    stakes: [
+      "the piece needs stillness without becoming visually empty",
+      "the viewer should feel time slowing through specific sensory detail",
+      "the environment reveals change through movement, not explanation",
+      "scale and intimacy need to trade places across the sequence",
+    ],
+    props: [
+      "raindrops on leaves, mud on boots, mist, and a bent fern",
+      "rippling water, smooth stones, pale sky, and distant birds",
+      "wild grass, coat fabric, cloud shadow, and a narrow footpath",
+      "window glass, rain trails, curtain edge, and muted room reflection",
+    ],
+    progressions: [
+      "start macro, widen to atmosphere, then return to one detail with new meaning",
+      "let wind or water introduce motion before the camera reveals scale",
+      "move from surface texture to horizon so the mood opens slowly",
+      "hold longer than expected, then reward patience with a subtle natural change",
+    ],
+    formats: [
+      "ambient cinematic loop with high-fidelity environmental texture",
+      "slow nature reel built from macro detail and wide release",
+      "visual poem with minimal text and patient camera movement",
+      "immersive field-recording sequence where sound leads the edits",
+    ],
+    avoids: [
+      "generic postcard landscapes with no tactile detail",
+      "oversaturated colors, fake wildlife moments, or rushed drone shots",
+      "heavy text overlays that break the quiet",
+      "stock nature montage pacing with no sense of place",
+    ],
+  },
+  Society: {
+    settings: [
+      "a bus stop during the evening commute",
+      "a public library table shared by strangers",
+      "a market street as shops open and deliveries arrive",
+      "a city bench beside traffic, workers, and passing families",
+    ],
+    subjects: [
+      "several strangers connected by one overlooked public ritual",
+      "a worker whose invisible effort changes everyone else's day",
+      "a commuter noticing the system they usually move through automatically",
+      "a small group sharing space without speaking directly",
+    ],
+    stakes: [
+      "the social point has to stay human before it becomes analytical",
+      "ordinary infrastructure reveals who gets comfort and who absorbs friction",
+      "the scene asks viewers to notice a pattern they usually pass by",
+      "care, labor, and access are visible through small repeated actions",
+    ],
+    props: [
+      "transit card, worn bench, paper bag, and flickering schedule sign",
+      "library books, charging cable, winter coat, and handwritten notice",
+      "delivery crates, coins, shop shutter, and steam from breakfast food",
+      "crosswalk button, cleaning cart, stroller wheel, and traffic reflection",
+    ],
+    progressions: [
+      "follow one object through different hands until the system becomes visible",
+      "contrast who waits, who moves, and who maintains the shared space",
+      "start with a single face, widen to the pattern, then return to one human detail",
+      "let repeated civic sounds become rhythm before the final question lands",
+    ],
+    formats: [
+      "observational city vignette with documentary restraint",
+      "social insight reel built from public-space details",
+      "micro-documentary sequence where systems stay tied to faces",
+      "street-level visual essay with rhythmic ambient sound",
+    ],
+    avoids: [
+      "faceless crowd footage with no emotional anchor",
+      "preachy text, partisan shorthand, or flattening people into symbols",
+      "poverty aesthetics used as decoration",
+      "wide city shots that never show the specific social pattern",
+    ],
+  },
+};
+
 function normalizeText(value: string) {
   return value
     .toLowerCase()
@@ -483,6 +804,10 @@ function textSimilarity(left: string, right: string) {
   return jaccardSimilarity(tokenSet(left), tokenSet(right));
 }
 
+function sentenceFragment(value: string) {
+  return value.replace(/[.!?]+$/g, "");
+}
+
 function parseArgs(argv: string[]) {
   const args: { datasetPath?: string; count?: number } = {};
 
@@ -510,7 +835,9 @@ function parseArgs(argv: string[]) {
 
 function buildPromptText(category: PromptCategory, variantIndex: number) {
   const template = promptTemplates[category];
-  const baseTitle = template.titles[variantIndex % template.titles.length];
+  const context = contextTemplates[category];
+  const baseTitleIndex = variantIndex % template.titles.length;
+  const baseTitle = template.titles[baseTitleIndex];
   const titleAngle = titleAngles[Math.floor(variantIndex / template.titles.length) % titleAngles.length];
   const titleContext =
     titleContexts[
@@ -522,18 +849,25 @@ function buildPromptText(category: PromptCategory, variantIndex: number) {
   const close = template.closes[(variantIndex * 7 + 2) % template.closes.length];
   const focus = focusDirections[(variantIndex * 11 + promptCategories.indexOf(category)) % focusDirections.length];
 
-  const camera = template.cameras[variantIndex % template.cameras.length];
-  const lighting = template.lightings[variantIndex % template.lightings.length];
-  const audio = template.audios[variantIndex % template.audios.length];
+  const camera = sentenceFragment(template.cameras[variantIndex % template.cameras.length]);
+  const lighting = sentenceFragment(template.lightings[variantIndex % template.lightings.length]);
+  const audio = sentenceFragment(template.audios[variantIndex % template.audios.length]);
+  const setting = context.settings[baseTitleIndex % context.settings.length];
+  const subject = context.subjects[(variantIndex * 3 + 1) % context.subjects.length];
+  const stakes = context.stakes[(variantIndex * 5 + 2) % context.stakes.length];
+  const props = context.props[(variantIndex * 7 + 3) % context.props.length];
+  const progression = context.progressions[(variantIndex * 11 + 1) % context.progressions.length];
+  const format = context.formats[(variantIndex * 13 + 2) % context.formats.length];
+  const avoid = context.avoids[(variantIndex * 17 + 3) % context.avoids.length];
 
   return {
     title,
     prompt: [
-      `Hook: ${title}.`,
-      `Visual: ${visual}.`,
-      `Tone: ${tone}.`,
-      `Focus: ${focus}`,
-      close,
+      `Hook: ${title}; ${stakes}.`,
+      `Scene: ${setting}, following ${subject}; include ${props}.`,
+      `Story: ${progression}; visual direction: ${visual}.`,
+      `Production: ${format}; tone: ${tone}; camera: ${camera}; lighting: ${lighting}; audio: ${audio}`,
+      `Avoid: ${avoid}. ${focus} ${close}`,
     ].join("\n"),
     tags: template.tags,
     camera,

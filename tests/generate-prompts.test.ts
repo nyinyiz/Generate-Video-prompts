@@ -122,6 +122,21 @@ test("generatePrompts dates records in Bangkok time", () => {
   assert.match(generated[0].id, /^2026-04-21-/);
 });
 
+test("generatePrompts creates context-rich shootable briefs", () => {
+  const [record] = generatePrompts([], {
+    count: 1,
+    now: new Date("2026-04-21T00:00:00.000Z"),
+  });
+  const lines = record.prompt.split("\n");
+
+  assert.equal(lines.length, 5);
+  assert.match(record.prompt, /^Hook: .+/m);
+  assert.match(record.prompt, /^Scene: .+following .+include .+/m);
+  assert.match(record.prompt, /^Story: .+visual direction: .+/m);
+  assert.match(record.prompt, /^Production: .+camera: .+lighting: .+audio: .+/m);
+  assert.match(record.prompt, /^Avoid: .+/m);
+});
+
 test("isDuplicateEntry catches near-duplicate titles or prompts", () => {
   const existing = [
     makeRecord({
