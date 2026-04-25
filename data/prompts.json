@@ -914,5 +914,39 @@
     "lighting": "Cool, misty 'Blue Hour' tones for a mysterious, quiet feel",
     "audio": "Deep, resonant drone pads that blend into the environmental sound",
     "createdAt": "2026-04-25T05:37:33.942Z"
+  },
+  {
+    "id": "2026-04-25-society-001",
+    "date": "2026-04-25",
+    "category": "Society",
+    "title": "The Invisible Work Holding Everything Up: Tiny Turn Right Now",
+    "prompt": "Hook: The Invisible Work Holding Everything Up: Tiny Turn Right Now; the social point has to stay human before it becomes analytical.\nScene: a market street as shops open and deliveries arrive, following a small group sharing space without speaking directly; include library books, charging cable, winter coat, and handwritten notice.\nStory: let repeated civic sounds become rhythm before the final question lands; visual direction: use observational footage that keeps individuals human while widening the social lens.\nProduction: observational city vignette with documentary restraint; tone: clear-eyed, compassionate, and provocative; camera: Static wide shots of public spaces to watch the choreography of life; lighting: Warm evening light hitting glass buildings for a cinematic urban feel; audio: Documentary-style interview snippets or ambient 'vox pop' noise\nAvoid: preachy text, partisan shorthand, or flattening people into symbols. Make the first three seconds immediately readable without extra context. End on one image that turns the social point into a human feeling.",
+    "tags": [
+      "society",
+      "culture",
+      "community",
+      "observation"
+    ],
+    "camera": "Static wide shots of public spaces to watch the choreography of life",
+    "lighting": "Warm evening light hitting glass buildings for a cinematic urban feel",
+    "audio": "Documentary-style interview snippets or ambient 'vox pop' noise",
+    "createdAt": "2026-04-25T11:19:08.993Z"
+  },
+  {
+    "id": "2026-04-25-daily-life-001",
+    "date": "2026-04-25",
+    "category": "Daily Life",
+    "title": "Tiny Rituals That Calm a Busy Morning: Tiny Turn Right Now",
+    "prompt": "Hook: Tiny Rituals That Calm a Busy Morning: Tiny Turn Right Now; one ignored mess keeps pulling attention away from the next task.\nScene: a hallway entry table crowded with keys, receipts, and shoes, following a student making a small space feel usable again; include a chipped mug, soft cloth, timer, and stack of folded fabric.\nStory: cut between tiny tactile wins until the final frame feels lighter than the first; visual direction: track a simple routine through natural light, clean surfaces, and one satisfying final frame.\nProduction: quiet before-and-after sequence with no exaggerated transformation; tone: calm, grounding, and quietly satisfying; camera: Eye-level perspective to maintain a relatable, personal connection; lighting: Low-contrast, diffused lighting for a calm and restorative mood; audio: Natural silence broken only by the primary tactile action in the scene\nAvoid: fast cleaning montage cliches that erase the human pace of the action. Give the final shot a clear emotional aftertaste that matches the hook. Close with a before-and-after contrast that feels earned.",
+    "tags": [
+      "routine",
+      "home",
+      "lifestyle",
+      "short-form"
+    ],
+    "camera": "Eye-level perspective to maintain a relatable, personal connection",
+    "lighting": "Low-contrast, diffused lighting for a calm and restorative mood",
+    "audio": "Natural silence broken only by the primary tactile action in the scene",
+    "createdAt": "2026-04-25T11:19:08.993Z"
   }
 ]
