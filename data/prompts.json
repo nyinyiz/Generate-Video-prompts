@@ -1050,5 +1050,39 @@
     "lighting": "Flat, midday sun to capture the unvarnished reality of the street",
     "audio": "Rhythmic, jazz-influenced or hip-hop beats with a street pulse",
     "createdAt": "2026-04-26T05:51:29.892Z"
+  },
+  {
+    "id": "2026-04-26-daily-life-001",
+    "date": "2026-04-26",
+    "category": "Daily Life",
+    "title": "The Five-Minute Kitchen Reset: Lasting Beat Right Now",
+    "prompt": "Hook: The Five-Minute Kitchen Reset: Lasting Beat Right Now; the day feels noisy before it has even begun.\nScene: a compact apartment kitchen before anyone else wakes up, following a creator preparing the room before the real work starts; include keys, a notebook, tangled charger, and one small tray.\nStory: show the subject choosing one manageable corner instead of trying to fix everything; visual direction: move from clutter to clarity with readable cuts and a steady lived-in pace.\nProduction: vertical lifestyle short with tactile inserts and clean natural pacing; tone: cozy, human, and low-pressure; camera: Macro lens for extreme close-ups on textures and small movements; lighting: Bright, even daylight for a clean, energized productivity look; audio: Soft, minimal lo-fi beats with a focus on steady, calming tempo\nAvoid: generic productivity slogans or text that explains what the image already shows. Build the middle beat around a small before-and-after shift viewers can feel. End on a frame that makes ordinary order feel like self-respect.",
+    "tags": [
+      "routine",
+      "home",
+      "lifestyle",
+      "short-form"
+    ],
+    "camera": "Macro lens for extreme close-ups on textures and small movements",
+    "lighting": "Bright, even daylight for a clean, energized productivity look",
+    "audio": "Soft, minimal lo-fi beats with a focus on steady, calming tempo",
+    "createdAt": "2026-04-26T11:19:18.461Z"
+  },
+  {
+    "id": "2026-04-26-human-nature-002",
+    "date": "2026-04-26",
+    "category": "Human Nature",
+    "title": "The Story We Tell Ourselves First: Lasting Beat Right Now",
+    "prompt": "Hook: The Story We Tell Ourselves First: Lasting Beat Right Now; one private assumption is shaping the whole scene.\nScene: a bedroom mirror lit by a single warm lamp, following a colleague deciding whether to send the vulnerable message; include an unread message, paper cup, jacket sleeve, and fogged glass.\nStory: let the insight arrive through one repeated gesture instead of a lecture; visual direction: use reflective surfaces, notebooks, text messages, and close-ups that make the psychology feel personal.\nProduction: psychology reel built from familiar social details; tone: thoughtful, intimate, and emotionally honest; camera: Static medium shots to allow the subject's behavior to lead the frame; lighting: Subtle rim lighting to separate the subject from a dark, focused background; audio: Heightened focus on micro-sounds: a deep breath, a pen on paper\nAvoid: abstract symbolism that makes the human moment harder to recognize. Show the cost of staying still before revealing the practical turning point. Let the last beat feel personal instead of preachy.",
+    "tags": [
+      "psychology",
+      "behavior",
+      "reflection",
+      "mindset"
+    ],
+    "camera": "Static medium shots to allow the subject's behavior to lead the frame",
+    "lighting": "Subtle rim lighting to separate the subject from a dark, focused background",
+    "audio": "Heightened focus on micro-sounds: a deep breath, a pen on paper",
+    "createdAt": "2026-04-26T11:19:18.461Z"
   }
 ]
