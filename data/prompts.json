@@ -1186,5 +1186,39 @@
     "lighting": "Warm golden hour glow to enhance the cozy, satisfying atmosphere",
     "audio": "Clean foley: the sharp click of a switch, water pouring, or rhythmic folding",
     "createdAt": "2026-04-27T06:02:05.232Z"
+  },
+  {
+    "id": "2026-04-27-human-nature-001",
+    "date": "2026-04-27",
+    "category": "Human Nature",
+    "title": "How Memory Keeps the Feeling, Not the Facts: Grounded Take Right Now",
+    "prompt": "Hook: How Memory Keeps the Feeling, Not the Facts: Grounded Take Right Now; the emotion is small enough to hide but strong enough to change the next choice.\nScene: an office stairwell where someone pauses before replying, following someone catching their own pattern in an ordinary reflection; include a notebook margin, pen mark, phone screen, and dim lamp.\nStory: move from guarded body language to one small sign of openness; visual direction: anchor abstract ideas in familiar micro-moments people instantly recognize.\nProduction: observational micro-drama with restrained voiceover; tone: warm, observant, and psychologically sharp; camera: Over-the-shoulder perspective to place the viewer in the conversation; lighting: Natural, unpolished light to maintain a raw, documentary-style truth; audio: Atmospheric room tone: soft wind or distant, muffled city life\nAvoid: overacted sadness and melodramatic reaction shots. Keep text overlays minimal and tied to action already visible on screen. End with one line that makes the viewer reconsider their own pattern.",
+    "tags": [
+      "psychology",
+      "behavior",
+      "reflection",
+      "mindset"
+    ],
+    "camera": "Over-the-shoulder perspective to place the viewer in the conversation",
+    "lighting": "Natural, unpolished light to maintain a raw, documentary-style truth",
+    "audio": "Atmospheric room tone: soft wind or distant, muffled city life",
+    "createdAt": "2026-04-27T11:37:35.273Z"
+  },
+  {
+    "id": "2026-04-27-health-002",
+    "date": "2026-04-27",
+    "category": "Health",
+    "title": "A Tiny Habit for Better Energy: Grounded Take Right Now",
+    "prompt": "Hook: A Tiny Habit for Better Energy: Grounded Take Right Now; the subject needs relief before discipline can make sense.\nScene: a small balcony at sunrise with a glass of water on the rail, following someone protecting their evening routine from another late scroll; include water glass, sneakers, towel, and a phone timer.\nStory: keep the habit tiny and show how the subject makes it easier to start; visual direction: keep the demo concrete with body language changing as the habit takes effect.\nProduction: gentle habit demo filmed like a calm daily ritual; tone: fresh, practical, and reassuring; camera: Steady tracking shots that move at a relaxed, walking pace; lighting: Clean, clinical but warm lighting for a trustworthy health feel; audio: Minimalist electronic pulses that emphasize focus and flow\nAvoid: generic smoothie-and-sunrise wellness stock shots. Make every cut answer the previous frame with a more specific detail. Let the last shot feel like relief, not pressure.",
+    "tags": [
+      "wellness",
+      "habit",
+      "energy",
+      "health"
+    ],
+    "camera": "Steady tracking shots that move at a relaxed, walking pace",
+    "lighting": "Clean, clinical but warm lighting for a trustworthy health feel",
+    "audio": "Minimalist electronic pulses that emphasize focus and flow",
+    "createdAt": "2026-04-27T11:37:35.273Z"
   }
 ]
