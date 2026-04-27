@@ -1254,5 +1254,39 @@
     "lighting": "Dramatically silhouetted subjects against a bright, rising sun",
     "audio": "Intense, breathy sound design mixed close to the microphone",
     "createdAt": "2026-04-27T17:28:38.099Z"
+  },
+  {
+    "id": "2026-04-28-nature-001",
+    "date": "2026-04-28",
+    "category": "Nature",
+    "title": "Wind Through an Open Field: First Step At Dawn",
+    "prompt": "Hook: Wind Through an Open Field: First Step At Dawn; the piece needs stillness without becoming visually empty.\nScene: a windswept field where grass moves in uneven waves, following weather, texture, and light carrying the emotional arc; include rippling water, smooth stones, pale sky, and distant birds.\nStory: hold longer than expected, then reward patience with a subtle natural change; visual direction: use macro moments, soft focus shifts, and wide reveals to create immersion.\nProduction: ambient cinematic loop with high-fidelity environmental texture; tone: serene, tactile, and deeply present; camera: Slow-motion capture to emphasize the grace of natural movement; lighting: Harsh, dramatic storm light with dark skies and bright highlights; audio: Subtle, organic percussion like wooden blocks or soft chimes\nAvoid: oversaturated colors, fake wildlife moments, or rushed drone shots. Keep text overlays minimal and tied to action already visible on screen. End on a final image that invites the viewer to breathe slower.",
+    "tags": [
+      "nature",
+      "ambient",
+      "cinematic",
+      "outdoors"
+    ],
+    "camera": "Slow-motion capture to emphasize the grace of natural movement",
+    "lighting": "Harsh, dramatic storm light with dark skies and bright highlights",
+    "audio": "Subtle, organic percussion like wooden blocks or soft chimes",
+    "createdAt": "2026-04-27T23:16:36.260Z"
+  },
+  {
+    "id": "2026-04-28-society-001",
+    "date": "2026-04-28",
+    "category": "Society",
+    "title": "How a City Sounds When You Really Listen: First Step At Dawn",
+    "prompt": "Hook: How a City Sounds When You Really Listen: First Step At Dawn; ordinary infrastructure reveals who gets comfort and who absorbs friction.\nScene: a city bench beside traffic, workers, and passing families, following a commuter noticing the system they usually move through automatically; include transit card, worn bench, paper bag, and flickering schedule sign.\nStory: start with a single face, widen to the pattern, then return to one human detail; visual direction: show people in shared environments with rhythmic cuts that reveal systems, not just scenes.\nProduction: social insight reel built from public-space details; tone: thoughtful, humane, and quietly urgent; camera: Quick, rhythmic panning between different people and actions; lighting: High-contrast shadows in alleys and underpasses for a gritty texture; audio: Industrial, mechanical sounds mixed into a steady musical rhythm\nAvoid: poverty aesthetics used as decoration. Make every cut answer the previous frame with a more specific detail. Let the final beat connect systems back to ordinary people.",
+    "tags": [
+      "society",
+      "culture",
+      "community",
+      "observation"
+    ],
+    "camera": "Quick, rhythmic panning between different people and actions",
+    "lighting": "High-contrast shadows in alleys and underpasses for a gritty texture",
+    "audio": "Industrial, mechanical sounds mixed into a steady musical rhythm",
+    "createdAt": "2026-04-27T23:16:36.260Z"
   }
 ]
