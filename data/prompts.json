@@ -1220,5 +1220,39 @@
     "lighting": "Clean, clinical but warm lighting for a trustworthy health feel",
     "audio": "Minimalist electronic pulses that emphasize focus and flow",
     "createdAt": "2026-04-27T11:37:35.273Z"
+  },
+  {
+    "id": "2026-04-28-technology-001",
+    "date": "2026-04-28",
+    "category": "Technology",
+    "title": "The Assistant Already in Your Pocket: First Step At Dawn",
+    "prompt": "Hook: The Assistant Already in Your Pocket: First Step At Dawn; the subject is close to overwhelm until the workflow becomes visible.\nScene: a shared workspace with a laptop, phone, and messy task list, following a creator using automation to protect creative energy; include spreadsheet, chat window, timer, and a completed checklist.\nStory: cut from repeated manual steps to one smoother automated sequence; visual direction: use crisp screen-driven storytelling with real tasks becoming easier in a few fast beats.\nProduction: day-in-the-life tech vignette where usefulness beats spectacle; tone: energetic, clean, and genuinely helpful; camera: Sharp, high-definition macro shots of screens and tactile tech; lighting: Cool-toned, modern LEDs with subtle neon or cyan accents; audio: Satisfying digital haptics: subtle pings, sweeps, and UI clicks\nAvoid: screen glare or fast cuts that hide the workflow payoff. Keep text overlays minimal and tied to action already visible on screen. Close on a smoother workflow viewers can picture using tomorrow.",
+    "tags": [
+      "ai",
+      "productivity",
+      "tools",
+      "technology"
+    ],
+    "camera": "Sharp, high-definition macro shots of screens and tactile tech",
+    "lighting": "Cool-toned, modern LEDs with subtle neon or cyan accents",
+    "audio": "Satisfying digital haptics: subtle pings, sweeps, and UI clicks",
+    "createdAt": "2026-04-27T17:28:38.099Z"
+  },
+  {
+    "id": "2026-04-28-motivation-001",
+    "date": "2026-04-28",
+    "category": "Motivation",
+    "title": "Do It Before You Feel Ready: First Step At Dawn",
+    "prompt": "Hook: Do It Before You Feel Ready: First Step At Dawn; the scene turns motivation into a physical choice, not a slogan.\nScene: a bedroom desk at midnight beside a half-finished draft, following a beginner choosing the first imperfect rep; include wet court lines, worn ball, breath in cold air, and empty bleachers.\nStory: open on avoidance, show the smallest possible start, then make the next action feel inevitable; visual direction: use grounded scenes of work, training, or creative effort without turning it into a montage cliché.\nProduction: POV first-step sequence with a clear emotional turn; tone: honest, determined, and emotionally clean; camera: Close-ups on sweat, strained muscles, or focused eyes; lighting: Dramatically silhouetted subjects against a bright, rising sun; audio: Intense, breathy sound design mixed close to the microphone\nAvoid: generic motivational quotes, fake applause, and overdramatic victory shots. Make every cut answer the previous frame with a more specific detail. Finish on the idea that consistency beats intensity.",
+    "tags": [
+      "motivation",
+      "discipline",
+      "action",
+      "growth"
+    ],
+    "camera": "Close-ups on sweat, strained muscles, or focused eyes",
+    "lighting": "Dramatically silhouetted subjects against a bright, rising sun",
+    "audio": "Intense, breathy sound design mixed close to the microphone",
+    "createdAt": "2026-04-27T17:28:38.099Z"
   }
 ]
