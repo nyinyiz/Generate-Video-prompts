@@ -1152,5 +1152,39 @@
     "lighting": "Speckled 'forest floor' light filtered through thick canopies",
     "audio": "The sound of moving water: ripples, waves, or steady mountain streams",
     "createdAt": "2026-04-26T23:11:38.536Z"
+  },
+  {
+    "id": "2026-04-27-society-001",
+    "date": "2026-04-27",
+    "category": "Society",
+    "title": "Who Gets the Quiet Spaces: Grounded Take Right Now",
+    "prompt": "Hook: Who Gets the Quiet Spaces: Grounded Take Right Now; the scene asks viewers to notice a pattern they usually pass by.\nScene: a public library table shared by strangers, following a worker whose invisible effort changes everyone else's day; include crosswalk button, cleaning cart, stroller wheel, and traffic reflection.\nStory: contrast who waits, who moves, and who maintains the shared space; visual direction: contrast motion and stillness across streets, transit, public spaces, and everyday labor.\nProduction: micro-documentary sequence where systems stay tied to faces; tone: observant, social, and emotionally grounded; camera: Telephoto compression to show the density and energy of a city; lighting: Mixed city lighting: neon signs, streetlights, and shop windows; audio: Layered city soundscapes: traffic hum, muffled voices, sirens\nAvoid: wide city shots that never show the specific social pattern. Build the middle beat around a small before-and-after shift viewers can feel. Close on a pause that gives the idea room to land.",
+    "tags": [
+      "society",
+      "culture",
+      "community",
+      "observation"
+    ],
+    "camera": "Telephoto compression to show the density and energy of a city",
+    "lighting": "Mixed city lighting: neon signs, streetlights, and shop windows",
+    "audio": "Layered city soundscapes: traffic hum, muffled voices, sirens",
+    "createdAt": "2026-04-27T06:02:05.232Z"
+  },
+  {
+    "id": "2026-04-27-daily-life-001",
+    "date": "2026-04-27",
+    "category": "Daily Life",
+    "title": "A Desk That Lets You Breathe: Grounded Take Right Now",
+    "prompt": "Hook: A Desk That Lets You Breathe: Grounded Take Right Now; ordinary clutter is quietly shaping the mood of the whole room.\nScene: a laundry corner with warm towels and a small folding surface, following a working adult trying to reclaim ten calm minutes; include fresh towel, laundry basket, wooden hanger, and morning light.\nStory: start with one cramped frame, reveal the small decision, then widen as the space settles; visual direction: keep the camera intimate with everyday objects, quiet gestures, and visible progress.\nProduction: micro-documentary moment that makes a normal routine feel intentional; tone: clean, steady, and emotionally relieving; camera: Static tripod with slow, controlled pans to emphasize order; lighting: Warm golden hour glow to enhance the cozy, satisfying atmosphere; audio: Clean foley: the sharp click of a switch, water pouring, or rhythmic folding\nAvoid: perfect showroom staging, fake smiles, and unrealistic spotless interiors. Make every cut answer the previous frame with a more specific detail. Finish with one simple habit viewers can copy today.",
+    "tags": [
+      "routine",
+      "home",
+      "lifestyle",
+      "short-form"
+    ],
+    "camera": "Static tripod with slow, controlled pans to emphasize order",
+    "lighting": "Warm golden hour glow to enhance the cozy, satisfying atmosphere",
+    "audio": "Clean foley: the sharp click of a switch, water pouring, or rhythmic folding",
+    "createdAt": "2026-04-27T06:02:05.232Z"
   }
 ]
