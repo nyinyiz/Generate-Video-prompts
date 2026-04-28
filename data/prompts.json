@@ -1288,5 +1288,39 @@
     "lighting": "High-contrast shadows in alleys and underpasses for a gritty texture",
     "audio": "Industrial, mechanical sounds mixed into a steady musical rhythm",
     "createdAt": "2026-04-27T23:16:36.260Z"
+  },
+  {
+    "id": "2026-04-28-daily-life-001",
+    "date": "2026-04-28",
+    "category": "Daily Life",
+    "title": "Making Laundry Feel Like a Win: First Step At Dawn",
+    "prompt": "Hook: Making Laundry Feel Like a Win: First Step At Dawn; the subject needs a visible win before momentum disappears.\nScene: a compact apartment kitchen before anyone else wakes up, following a parent resetting one corner of the home between responsibilities; include sticky notes, water glass, pen, and a cleared rectangle of desk.\nStory: move from hesitation to one repeated action, then show the room becoming easier to breathe in; visual direction: show tactile close-ups of hands clearing, folding, wiping, and resetting one small space.\nProduction: POV reset built around hands, surfaces, and satisfying sound cues; tone: warm, practical, and reassuring; camera: Handheld with subtle natural shake for an authentic, lived-in feel; lighting: Soft morning window light creating gentle shadows and high clarity; audio: Ambient household sounds: distant birds, a ticking clock, soft fabric rustling\nAvoid: visual clutter that makes the final change hard to read. Use pacing changes to make the transformation feel earned instead of forced. Let the final beat land as relief, not perfection.",
+    "tags": [
+      "routine",
+      "home",
+      "lifestyle",
+      "short-form"
+    ],
+    "camera": "Handheld with subtle natural shake for an authentic, lived-in feel",
+    "lighting": "Soft morning window light creating gentle shadows and high clarity",
+    "audio": "Ambient household sounds: distant birds, a ticking clock, soft fabric rustling",
+    "createdAt": "2026-04-28T06:02:38.765Z"
+  },
+  {
+    "id": "2026-04-28-human-nature-001",
+    "date": "2026-04-28",
+    "category": "Human Nature",
+    "title": "Why Small Kindness Hits So Hard: Quiet Proof At Dawn",
+    "prompt": "Hook: Why Small Kindness Hits So Hard: Quiet Proof At Dawn; a familiar defense mechanism is visible before the person names it.\nScene: a quiet cafe table after a difficult conversation, following a person replaying a small interaction that mattered more than expected; include two chairs, a half-finished drink, and a table between them.\nStory: begin with a reaction, reveal the thought behind it, then land on a more generous interpretation; visual direction: pair observational details with restrained movement so the emotion leads the sequence.\nProduction: documentary-style vignette where behavior carries the lesson; tone: reflective, human, and gently challenging; camera: Slow push-in to create a sense of intimacy and discovery; lighting: Soft, warm interior lighting for a sense of safety and vulnerability; audio: Clear, intimate voiceover with a warm, conversational texture\nAvoid: therapy buzzwords, preachy narration, or obvious moralizing. Make the first three seconds immediately readable without extra context. Close on a small expression that carries the whole insight.",
+    "tags": [
+      "psychology",
+      "behavior",
+      "reflection",
+      "mindset"
+    ],
+    "camera": "Slow push-in to create a sense of intimacy and discovery",
+    "lighting": "Soft, warm interior lighting for a sense of safety and vulnerability",
+    "audio": "Clear, intimate voiceover with a warm, conversational texture",
+    "createdAt": "2026-04-28T06:02:38.765Z"
   }
 ]
