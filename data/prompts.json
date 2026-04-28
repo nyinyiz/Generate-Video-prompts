@@ -1322,5 +1322,39 @@
     "lighting": "Soft, warm interior lighting for a sense of safety and vulnerability",
     "audio": "Clear, intimate voiceover with a warm, conversational texture",
     "createdAt": "2026-04-28T06:02:38.765Z"
+  },
+  {
+    "id": "2026-04-28-health-001",
+    "date": "2026-04-28",
+    "category": "Health",
+    "title": "The Two-Minute Walk That Resets a Day: Quiet Proof At Dawn",
+    "prompt": "Hook: The Two-Minute Walk That Resets a Day: Quiet Proof At Dawn; energy is low and the habit has to feel doable, not heroic.\nScene: a quiet office corner between meetings, following a person using a tiny habit to interrupt a draining day; include yoga mat, desk chair, blue light reflection, and notebook.\nStory: contrast screen fatigue with a grounded sensory reset; visual direction: focus on clear, copyable actions rather than abstract wellness imagery.\nProduction: practical wellness short with copyable steps and cinematic restraint; tone: grounded, healthy, and easy to trust; camera: Top-down flatlay for clear, organized habit demonstrations; lighting: Warm, dappled sunlight for outdoor movement and vitality; audio: Natural outdoor soundscapes: rustling leaves, distant water\nAvoid: extreme fitness imagery that makes the habit feel unreachable. Use pacing changes to make the transformation feel earned instead of forced. Close with one action simple enough to try immediately.",
+    "tags": [
+      "wellness",
+      "habit",
+      "energy",
+      "health"
+    ],
+    "camera": "Top-down flatlay for clear, organized habit demonstrations",
+    "lighting": "Warm, dappled sunlight for outdoor movement and vitality",
+    "audio": "Natural outdoor soundscapes: rustling leaves, distant water",
+    "createdAt": "2026-04-28T11:36:54.030Z"
+  },
+  {
+    "id": "2026-04-28-technology-002",
+    "date": "2026-04-28",
+    "category": "Technology",
+    "title": "When the App Learns Your Rhythm: Quiet Proof At Dawn",
+    "prompt": "Hook: When the App Learns Your Rhythm: Quiet Proof At Dawn; manual friction is stealing time from the work that matters.\nScene: a commuter train seat where a voice note becomes a plan, following a small business owner replacing a repetitive admin loop; include voice memo waveform, calendar card, keyboard, and sticky task list.\nStory: make the interface readable while the human benefit stays emotionally clear; visual direction: show phones, laptops, and hands moving through a believable workflow instead of a concept demo.\nProduction: before-and-after workflow reel with readable UI states; tone: smart, modern, and practical; camera: Over-the-shoulder POV for an immersive 'user experience' feel; lighting: Natural window light reflecting off glass for a realistic, daily-use feel; audio: Muted, low-frequency atmospheric hums for a sense of scale\nAvoid: overly glossy product shots with no human stakes. Make the first three seconds immediately readable without extra context. Let the final frame show technology serving a real human need.",
+    "tags": [
+      "ai",
+      "productivity",
+      "tools",
+      "technology"
+    ],
+    "camera": "Over-the-shoulder POV for an immersive 'user experience' feel",
+    "lighting": "Natural window light reflecting off glass for a realistic, daily-use feel",
+    "audio": "Muted, low-frequency atmospheric hums for a sense of scale",
+    "createdAt": "2026-04-28T11:36:54.030Z"
   }
 ]
