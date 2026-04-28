@@ -1390,5 +1390,39 @@
     "lighting": "Cool, misty 'Blue Hour' tones for a mysterious, quiet feel",
     "audio": "Deep, resonant drone pads that blend into the environmental sound",
     "createdAt": "2026-04-28T17:31:09.210Z"
+  },
+  {
+    "id": "2026-04-29-society-001",
+    "date": "2026-04-29",
+    "category": "Society",
+    "title": "The Price of Always Being Busy: Visible Shift At Dawn",
+    "prompt": "Hook: The Price of Always Being Busy: Visible Shift At Dawn; the social point has to stay human before it becomes analytical.\nScene: a bus stop during the evening commute, following a small group sharing space without speaking directly; include library books, charging cable, winter coat, and handwritten notice.\nStory: let repeated civic sounds become rhythm before the final question lands; visual direction: use observational footage that keeps individuals human while widening the social lens.\nProduction: observational city vignette with documentary restraint; tone: clear-eyed, compassionate, and provocative; camera: Static wide shots of public spaces to watch the choreography of life; lighting: Warm evening light hitting glass buildings for a cinematic urban feel; audio: Documentary-style interview snippets or ambient 'vox pop' noise\nAvoid: preachy text, partisan shorthand, or flattening people into symbols. Use pacing changes to make the transformation feel earned instead of forced. End on one image that turns the social point into a human feeling.",
+    "tags": [
+      "society",
+      "culture",
+      "community",
+      "observation"
+    ],
+    "camera": "Static wide shots of public spaces to watch the choreography of life",
+    "lighting": "Warm evening light hitting glass buildings for a cinematic urban feel",
+    "audio": "Documentary-style interview snippets or ambient 'vox pop' noise",
+    "createdAt": "2026-04-28T23:16:45.372Z"
+  },
+  {
+    "id": "2026-04-29-daily-life-001",
+    "date": "2026-04-29",
+    "category": "Daily Life",
+    "title": "Leaving the House Without the Rush: Visible Shift At Dawn",
+    "prompt": "Hook: Leaving the House Without the Rush: Visible Shift At Dawn; one ignored mess keeps pulling attention away from the next task.\nScene: a sunlit desk beside a half-open window, following a student making a small space feel usable again; include a chipped mug, soft cloth, timer, and stack of folded fabric.\nStory: cut between tiny tactile wins until the final frame feels lighter than the first; visual direction: track a simple routine through natural light, clean surfaces, and one satisfying final frame.\nProduction: quiet before-and-after sequence with no exaggerated transformation; tone: calm, grounding, and quietly satisfying; camera: Eye-level perspective to maintain a relatable, personal connection; lighting: Low-contrast, diffused lighting for a calm and restorative mood; audio: Natural silence broken only by the primary tactile action in the scene\nAvoid: fast cleaning montage cliches that erase the human pace of the action. Let one concrete object or gesture carry the idea through the sequence. Close with a before-and-after contrast that feels earned.",
+    "tags": [
+      "routine",
+      "home",
+      "lifestyle",
+      "short-form"
+    ],
+    "camera": "Eye-level perspective to maintain a relatable, personal connection",
+    "lighting": "Low-contrast, diffused lighting for a calm and restorative mood",
+    "audio": "Natural silence broken only by the primary tactile action in the scene",
+    "createdAt": "2026-04-28T23:16:45.372Z"
   }
 ]
