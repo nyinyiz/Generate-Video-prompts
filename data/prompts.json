@@ -1424,5 +1424,39 @@
     "lighting": "Low-contrast, diffused lighting for a calm and restorative mood",
     "audio": "Natural silence broken only by the primary tactile action in the scene",
     "createdAt": "2026-04-28T23:16:45.372Z"
+  },
+  {
+    "id": "2026-04-29-human-nature-001",
+    "date": "2026-04-29",
+    "category": "Human Nature",
+    "title": "Why We Avoid the Tiny Tasks: Visible Shift At Dawn",
+    "prompt": "Hook: Why We Avoid the Tiny Tasks: Visible Shift At Dawn; the subject wants certainty, but the moment asks for honesty.\nScene: a bus window reflection during the ride home, following two friends noticing the silence after one honest sentence; include a mirror, loose receipt, and hand resting near the send button.\nStory: contrast what the subject says with what their hands and pauses reveal; visual direction: cut between ordinary gestures, facial reactions, and small pauses that reveal the inner shift.\nProduction: intimate portrait sequence with reflective surfaces and quiet cuts; tone: curious, relatable, and quietly revealing; camera: Close-up portrait framing to capture subtle shifts in expression; lighting: Moody, side-lit setups to emphasize depth and internal reflection; audio: Restrained, emotive piano notes with plenty of space between keys\nAvoid: stock footage of anonymous crowds with no personal anchor. Give the final shot a clear emotional aftertaste that matches the hook. Finish with a question that stays with the viewer after the scroll.",
+    "tags": [
+      "psychology",
+      "behavior",
+      "reflection",
+      "mindset"
+    ],
+    "camera": "Close-up portrait framing to capture subtle shifts in expression",
+    "lighting": "Moody, side-lit setups to emphasize depth and internal reflection",
+    "audio": "Restrained, emotive piano notes with plenty of space between keys",
+    "createdAt": "2026-04-29T06:01:52.107Z"
+  },
+  {
+    "id": "2026-04-29-health-001",
+    "date": "2026-04-29",
+    "category": "Health",
+    "title": "Sleep Starts Before the Pillow: Visible Shift At Dawn",
+    "prompt": "Hook: Sleep Starts Before the Pillow: Visible Shift At Dawn; the body is asking for attention before burnout becomes the main story.\nScene: a neighborhood sidewalk just after rain, following a tired professional choosing one low-friction healthy action; include pill organizer, herbal tea, window shade, and clean bedsheet.\nStory: show tension in posture first, introduce one simple action, then reveal the physical release; visual direction: use gentle pacing, uncluttered spaces, and visible relief in posture or mood.\nProduction: mini transformation sequence focused on posture, breath, and energy; tone: restorative, clear, and quietly motivating; camera: Follow-cam at waist height for an active, encouraging perspective; lighting: Soft, cool blue tones for evening routines and sleep prep; audio: Rhythmic, mid-tempo acoustic tracks that feel steady and upbeat\nAvoid: medical claims, miracle language, and body-shaming framing. Let one concrete object or gesture carry the idea through the sequence. Finish on a physical cue that shows the benefit without overexplaining it.",
+    "tags": [
+      "wellness",
+      "habit",
+      "energy",
+      "health"
+    ],
+    "camera": "Follow-cam at waist height for an active, encouraging perspective",
+    "lighting": "Soft, cool blue tones for evening routines and sleep prep",
+    "audio": "Rhythmic, mid-tempo acoustic tracks that feel steady and upbeat",
+    "createdAt": "2026-04-29T06:01:52.107Z"
   }
 ]
