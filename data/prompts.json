@@ -1458,5 +1458,39 @@
     "lighting": "Soft, cool blue tones for evening routines and sleep prep",
     "audio": "Rhythmic, mid-tempo acoustic tracks that feel steady and upbeat",
     "createdAt": "2026-04-29T06:01:52.107Z"
+  },
+  {
+    "id": "2026-04-29-technology-001",
+    "date": "2026-04-29",
+    "category": "Technology",
+    "title": "Let the Boring Task Disappear: Visible Shift At Dawn",
+    "prompt": "Hook: Let the Boring Task Disappear: Visible Shift At Dawn; the tool has to prove usefulness in seconds, not just look futuristic.\nScene: a shared workspace with a laptop, phone, and messy task list, following a student organizing research before the deadline pressure spikes; include messy browser tabs, charging cable, notebook, and progress indicator.\nStory: start with friction, reveal the workflow, then end on time returned; visual direction: keep the interface readable with quick cuts, progress states, and one obvious payoff.\nProduction: screen-led product demo with human context and crisp macro shots; tone: futuristic without losing everyday realism; camera: Stable, low-angle shots of devices to make them feel powerful; lighting: Clean, white studio lighting for a premium, minimalist tech look; audio: Clean, dry voiceover that sounds authoritative and precise\nAvoid: floating buzzwords that never connect to a concrete task. Give the final shot a clear emotional aftertaste that matches the hook. End on the specific time or effort this tool gives back.",
+    "tags": [
+      "ai",
+      "productivity",
+      "tools",
+      "technology"
+    ],
+    "camera": "Stable, low-angle shots of devices to make them feel powerful",
+    "lighting": "Clean, white studio lighting for a premium, minimalist tech look",
+    "audio": "Clean, dry voiceover that sounds authoritative and precise",
+    "createdAt": "2026-04-29T11:35:10.169Z"
+  },
+  {
+    "id": "2026-04-29-motivation-002",
+    "date": "2026-04-29",
+    "category": "Motivation",
+    "title": "Five Minutes Still Counts: Small Reset At Dawn",
+    "prompt": "Hook: Five Minutes Still Counts: Small Reset At Dawn; the first action matters because confidence is not available yet.\nScene: a quiet gym corner before sunrise with only one light on, following someone rebuilding discipline after a visible setback; include scuffed sneakers, phone timer, marked calendar, and cold coffee.\nStory: contrast the evidence of quitting with one visible decision to continue; visual direction: build tension through countdowns, first reps, first words, or the first click of publish.\nProduction: creator comeback vignette with tactile work details; tone: direct, energizing, and credible; camera: Rapid tracking shots that keep pace with intense movement; lighting: Warm, lens-flare heavy sunbeams to symbolize hope and reward; audio: Gritty, lo-fi rock or blues for a 'hard work' aesthetic\nAvoid: luxury success imagery that disconnects from the starting point. Let one concrete object or gesture carry the idea through the sequence. Let the final beat feel earned rather than inspirational for its own sake.",
+    "tags": [
+      "motivation",
+      "discipline",
+      "action",
+      "growth"
+    ],
+    "camera": "Rapid tracking shots that keep pace with intense movement",
+    "lighting": "Warm, lens-flare heavy sunbeams to symbolize hope and reward",
+    "audio": "Gritty, lo-fi rock or blues for a 'hard work' aesthetic",
+    "createdAt": "2026-04-29T11:35:10.169Z"
   }
 ]
