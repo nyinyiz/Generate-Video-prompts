@@ -1526,5 +1526,39 @@
     "lighting": "Flat, midday sun to capture the unvarnished reality of the street",
     "audio": "Rhythmic, jazz-influenced or hip-hop beats with a street pulse",
     "createdAt": "2026-04-29T17:29:31.776Z"
+  },
+  {
+    "id": "2026-04-30-daily-life-001",
+    "date": "2026-04-30",
+    "category": "Daily Life",
+    "title": "Tiny Rituals That Calm a Busy Morning: Small Reset At Dawn",
+    "prompt": "Hook: Tiny Rituals That Calm a Busy Morning: Small Reset At Dawn; the day feels noisy before it has even begun.\nScene: a hallway entry table crowded with keys, receipts, and shoes, following a creator preparing the room before the real work starts; include keys, a notebook, tangled charger, and one small tray.\nStory: show the subject choosing one manageable corner instead of trying to fix everything; visual direction: move from clutter to clarity with readable cuts and a steady lived-in pace.\nProduction: vertical lifestyle short with tactile inserts and clean natural pacing; tone: cozy, human, and low-pressure; camera: Macro lens for extreme close-ups on textures and small movements; lighting: Bright, even daylight for a clean, energized productivity look; audio: Soft, minimal lo-fi beats with a focus on steady, calming tempo\nAvoid: generic productivity slogans or text that explains what the image already shows. Show the cost of staying still before revealing the practical turning point. End on a frame that makes ordinary order feel like self-respect.",
+    "tags": [
+      "routine",
+      "home",
+      "lifestyle",
+      "short-form"
+    ],
+    "camera": "Macro lens for extreme close-ups on textures and small movements",
+    "lighting": "Bright, even daylight for a clean, energized productivity look",
+    "audio": "Soft, minimal lo-fi beats with a focus on steady, calming tempo",
+    "createdAt": "2026-04-29T23:17:15.705Z"
+  },
+  {
+    "id": "2026-04-30-human-nature-001",
+    "date": "2026-04-30",
+    "category": "Human Nature",
+    "title": "Why Private Praise Feels Different: Small Reset At Dawn",
+    "prompt": "Hook: Why Private Praise Feels Different: Small Reset At Dawn; one private assumption is shaping the whole scene.\nScene: a quiet cafe table after a difficult conversation, following a colleague deciding whether to send the vulnerable message; include an unread message, paper cup, jacket sleeve, and fogged glass.\nStory: let the insight arrive through one repeated gesture instead of a lecture; visual direction: use reflective surfaces, notebooks, text messages, and close-ups that make the psychology feel personal.\nProduction: psychology reel built from familiar social details; tone: thoughtful, intimate, and emotionally honest; camera: Static medium shots to allow the subject's behavior to lead the frame; lighting: Subtle rim lighting to separate the subject from a dark, focused background; audio: Heightened focus on micro-sounds: a deep breath, a pen on paper\nAvoid: abstract symbolism that makes the human moment harder to recognize. Build the middle beat around a small before-and-after shift viewers can feel. Let the last beat feel personal instead of preachy.",
+    "tags": [
+      "psychology",
+      "behavior",
+      "reflection",
+      "mindset"
+    ],
+    "camera": "Static medium shots to allow the subject's behavior to lead the frame",
+    "lighting": "Subtle rim lighting to separate the subject from a dark, focused background",
+    "audio": "Heightened focus on micro-sounds: a deep breath, a pen on paper",
+    "createdAt": "2026-04-29T23:17:15.705Z"
   }
 ]
