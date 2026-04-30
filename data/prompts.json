@@ -1560,5 +1560,39 @@
     "lighting": "Subtle rim lighting to separate the subject from a dark, focused background",
     "audio": "Heightened focus on micro-sounds: a deep breath, a pen on paper",
     "createdAt": "2026-04-29T23:17:15.705Z"
+  },
+  {
+    "id": "2026-04-30-health-001",
+    "date": "2026-04-30",
+    "category": "Health",
+    "title": "Water Before the World Wakes Up: Honest Start At Dawn",
+    "prompt": "Hook: Water Before the World Wakes Up: Honest Start At Dawn; the choice is small, but it changes the direction of the next hour.\nScene: a small balcony at sunrise with a glass of water on the rail, following a beginner rebuilding trust with their body through small movement; include rain jacket, earbuds, step counter, and wet pavement.\nStory: move from mental fog to a clear repeatable cue the viewer can copy; visual direction: show simple movement, natural light, and practical habits in clean everyday environments.\nProduction: POV body reset with tactile sound and visible relief; tone: supportive, calm, and genuinely useful; camera: Wide, spacious framing to emphasize room to breathe and move; lighting: High-key, bright natural light to symbolize energy and clarity; audio: Crisp, refreshing sound design: water splashing, deep exhales\nAvoid: busy overlays that distract from the simple action. Show the cost of staying still before revealing the practical turning point. End with a calm reminder that better health can start small.",
+    "tags": [
+      "wellness",
+      "habit",
+      "energy",
+      "health"
+    ],
+    "camera": "Wide, spacious framing to emphasize room to breathe and move",
+    "lighting": "High-key, bright natural light to symbolize energy and clarity",
+    "audio": "Crisp, refreshing sound design: water splashing, deep exhales",
+    "createdAt": "2026-04-30T06:02:39.764Z"
+  },
+  {
+    "id": "2026-04-30-technology-001",
+    "date": "2026-04-30",
+    "category": "Technology",
+    "title": "From Voice Note to Action Plan: Honest Start At Dawn",
+    "prompt": "Hook: From Voice Note to Action Plan: Honest Start At Dawn; one boring task is blocking a more human decision.\nScene: a kitchen table turned into a night work setup, following a solo operator turning scattered inputs into one clear next step; include phone notification, laptop dock, coffee, and a clean export screen.\nStory: show the messy input, the tool interpreting it, then the useful output in a real context; visual direction: pair tech moments with real-life context so the usefulness feels immediate.\nProduction: POV productivity short built around one practical automation; tone: efficient, polished, and forward-looking; camera: Fast, rhythmic jump cuts to mimic digital speed and efficiency; lighting: High-contrast, dark environments to make screens pop with clarity; audio: Driving, synth-heavy background tracks with a high-tech pulse\nAvoid: fake holograms, unreadable interfaces, and vague AI magic. Build the middle beat around a small before-and-after shift viewers can feel. Finish with a payoff that feels useful, not flashy.",
+    "tags": [
+      "ai",
+      "productivity",
+      "tools",
+      "technology"
+    ],
+    "camera": "Fast, rhythmic jump cuts to mimic digital speed and efficiency",
+    "lighting": "High-contrast, dark environments to make screens pop with clarity",
+    "audio": "Driving, synth-heavy background tracks with a high-tech pulse",
+    "createdAt": "2026-04-30T06:02:39.764Z"
   }
 ]
