@@ -1628,5 +1628,39 @@
     "lighting": "Speckled 'forest floor' light filtered through thick canopies",
     "audio": "The sound of moving water: ripples, waves, or steady mountain streams",
     "createdAt": "2026-04-30T11:34:36.630Z"
+  },
+  {
+    "id": "2026-05-01-society-001",
+    "date": "2026-05-01",
+    "category": "Society",
+    "title": "What Public Space Teaches Us About Care: Honest Start At Dawn",
+    "prompt": "Hook: What Public Space Teaches Us About Care: Honest Start At Dawn; the scene asks viewers to notice a pattern they usually pass by.\nScene: a bus stop during the evening commute, following a worker whose invisible effort changes everyone else's day; include crosswalk button, cleaning cart, stroller wheel, and traffic reflection.\nStory: contrast who waits, who moves, and who maintains the shared space; visual direction: contrast motion and stillness across streets, transit, public spaces, and everyday labor.\nProduction: micro-documentary sequence where systems stay tied to faces; tone: observant, social, and emotionally grounded; camera: Telephoto compression to show the density and energy of a city; lighting: Mixed city lighting: neon signs, streetlights, and shop windows; audio: Layered city soundscapes: traffic hum, muffled voices, sirens\nAvoid: wide city shots that never show the specific social pattern. Show the cost of staying still before revealing the practical turning point. Close on a pause that gives the idea room to land.",
+    "tags": [
+      "society",
+      "culture",
+      "community",
+      "observation"
+    ],
+    "camera": "Telephoto compression to show the density and energy of a city",
+    "lighting": "Mixed city lighting: neon signs, streetlights, and shop windows",
+    "audio": "Layered city soundscapes: traffic hum, muffled voices, sirens",
+    "createdAt": "2026-04-30T17:28:19.584Z"
+  },
+  {
+    "id": "2026-05-01-daily-life-001",
+    "date": "2026-05-01",
+    "category": "Daily Life",
+    "title": "The Five-Minute Kitchen Reset: Clear Signal At Dawn",
+    "prompt": "Hook: The Five-Minute Kitchen Reset: Clear Signal At Dawn; ordinary clutter is quietly shaping the mood of the whole room.\nScene: a compact apartment kitchen before anyone else wakes up, following a working adult trying to reclaim ten calm minutes; include fresh towel, laundry basket, wooden hanger, and morning light.\nStory: start with one cramped frame, reveal the small decision, then widen as the space settles; visual direction: keep the camera intimate with everyday objects, quiet gestures, and visible progress.\nProduction: micro-documentary moment that makes a normal routine feel intentional; tone: clean, steady, and emotionally relieving; camera: Static tripod with slow, controlled pans to emphasize order; lighting: Warm golden hour glow to enhance the cozy, satisfying atmosphere; audio: Clean foley: the sharp click of a switch, water pouring, or rhythmic folding\nAvoid: perfect showroom staging, fake smiles, and unrealistic spotless interiors. Keep text overlays minimal and tied to action already visible on screen. Finish with one simple habit viewers can copy today.",
+    "tags": [
+      "routine",
+      "home",
+      "lifestyle",
+      "short-form"
+    ],
+    "camera": "Static tripod with slow, controlled pans to emphasize order",
+    "lighting": "Warm golden hour glow to enhance the cozy, satisfying atmosphere",
+    "audio": "Clean foley: the sharp click of a switch, water pouring, or rhythmic folding",
+    "createdAt": "2026-04-30T17:28:19.584Z"
   }
 ]
