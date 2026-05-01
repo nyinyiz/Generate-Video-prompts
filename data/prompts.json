@@ -1798,5 +1798,39 @@
     "lighting": "Soft, warm interior lighting for a sense of safety and vulnerability",
     "audio": "Clear, intimate voiceover with a warm, conversational texture",
     "createdAt": "2026-05-01T17:19:09.403Z"
+  },
+  {
+    "id": "2026-05-02-health-001",
+    "date": "2026-05-02",
+    "category": "Health",
+    "title": "A Tiny Habit for Better Energy: Next Move At Dawn",
+    "prompt": "Hook: A Tiny Habit for Better Energy: Next Move At Dawn; energy is low and the habit has to feel doable, not heroic.\nScene: a small balcony at sunrise with a glass of water on the rail, following a person using a tiny habit to interrupt a draining day; include yoga mat, desk chair, blue light reflection, and notebook.\nStory: contrast screen fatigue with a grounded sensory reset; visual direction: focus on clear, copyable actions rather than abstract wellness imagery.\nProduction: practical wellness short with copyable steps and cinematic restraint; tone: grounded, healthy, and easy to trust; camera: Top-down flatlay for clear, organized habit demonstrations; lighting: Warm, dappled sunlight for outdoor movement and vitality; audio: Natural outdoor soundscapes: rustling leaves, distant water\nAvoid: extreme fitness imagery that makes the habit feel unreachable. Make the first three seconds immediately readable without extra context. Close with one action simple enough to try immediately.",
+    "tags": [
+      "wellness",
+      "habit",
+      "energy",
+      "health"
+    ],
+    "camera": "Top-down flatlay for clear, organized habit demonstrations",
+    "lighting": "Warm, dappled sunlight for outdoor movement and vitality",
+    "audio": "Natural outdoor soundscapes: rustling leaves, distant water",
+    "createdAt": "2026-05-01T23:15:41.498Z"
+  },
+  {
+    "id": "2026-05-02-technology-001",
+    "date": "2026-05-02",
+    "category": "Technology",
+    "title": "The Assistant Already in Your Pocket: Real Moment At Dawn",
+    "prompt": "Hook: The Assistant Already in Your Pocket: Real Moment At Dawn; manual friction is stealing time from the work that matters.\nScene: a shared workspace with a laptop, phone, and messy task list, following a small business owner replacing a repetitive admin loop; include voice memo waveform, calendar card, keyboard, and sticky task list.\nStory: make the interface readable while the human benefit stays emotionally clear; visual direction: show phones, laptops, and hands moving through a believable workflow instead of a concept demo.\nProduction: before-and-after workflow reel with readable UI states; tone: smart, modern, and practical; camera: Over-the-shoulder POV for an immersive 'user experience' feel; lighting: Natural window light reflecting off glass for a realistic, daily-use feel; audio: Muted, low-frequency atmospheric hums for a sense of scale\nAvoid: overly glossy product shots with no human stakes. Use pacing changes to make the transformation feel earned instead of forced. Let the final frame show technology serving a real human need.",
+    "tags": [
+      "ai",
+      "productivity",
+      "tools",
+      "technology"
+    ],
+    "camera": "Over-the-shoulder POV for an immersive 'user experience' feel",
+    "lighting": "Natural window light reflecting off glass for a realistic, daily-use feel",
+    "audio": "Muted, low-frequency atmospheric hums for a sense of scale",
+    "createdAt": "2026-05-01T23:15:41.498Z"
   }
 ]
