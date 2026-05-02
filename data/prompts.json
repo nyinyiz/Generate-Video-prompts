@@ -1900,5 +1900,39 @@
     "lighting": "Low-contrast, diffused lighting for a calm and restorative mood",
     "audio": "Natural silence broken only by the primary tactile action in the scene",
     "createdAt": "2026-05-02T11:19:45.223Z"
+  },
+  {
+    "id": "2026-05-03-human-nature-001",
+    "date": "2026-05-03",
+    "category": "Human Nature",
+    "title": "The Story We Tell Ourselves First: Better Rhythm At Dawn",
+    "prompt": "Hook: The Story We Tell Ourselves First: Better Rhythm At Dawn; a familiar defense mechanism is visible before the person names it.\nScene: a bedroom mirror lit by a single warm lamp, following a person replaying a small interaction that mattered more than expected; include two chairs, a half-finished drink, and a table between them.\nStory: begin with a reaction, reveal the thought behind it, then land on a more generous interpretation; visual direction: pair observational details with restrained movement so the emotion leads the sequence.\nProduction: documentary-style vignette where behavior carries the lesson; tone: reflective, human, and gently challenging; camera: Slow push-in to create a sense of intimacy and discovery; lighting: Soft, warm interior lighting for a sense of safety and vulnerability; audio: Clear, intimate voiceover with a warm, conversational texture\nAvoid: therapy buzzwords, preachy narration, or obvious moralizing. Use pacing changes to make the transformation feel earned instead of forced. Close on a small expression that carries the whole insight.",
+    "tags": [
+      "psychology",
+      "behavior",
+      "reflection",
+      "mindset"
+    ],
+    "camera": "Slow push-in to create a sense of intimacy and discovery",
+    "lighting": "Soft, warm interior lighting for a sense of safety and vulnerability",
+    "audio": "Clear, intimate voiceover with a warm, conversational texture",
+    "createdAt": "2026-05-02T17:14:14.692Z"
+  },
+  {
+    "id": "2026-05-03-health-001",
+    "date": "2026-05-03",
+    "category": "Health",
+    "title": "The Two-Minute Walk That Resets a Day: Better Rhythm At Dawn",
+    "prompt": "Hook: The Two-Minute Walk That Resets a Day: Better Rhythm At Dawn; the body is asking for attention before burnout becomes the main story.\nScene: a quiet office corner between meetings, following a tired professional choosing one low-friction healthy action; include pill organizer, herbal tea, window shade, and clean bedsheet.\nStory: show tension in posture first, introduce one simple action, then reveal the physical release; visual direction: use gentle pacing, uncluttered spaces, and visible relief in posture or mood.\nProduction: mini transformation sequence focused on posture, breath, and energy; tone: restorative, clear, and quietly motivating; camera: Follow-cam at waist height for an active, encouraging perspective; lighting: Soft, cool blue tones for evening routines and sleep prep; audio: Rhythmic, mid-tempo acoustic tracks that feel steady and upbeat\nAvoid: medical claims, miracle language, and body-shaming framing. Give the final shot a clear emotional aftertaste that matches the hook. Finish on a physical cue that shows the benefit without overexplaining it.",
+    "tags": [
+      "wellness",
+      "habit",
+      "energy",
+      "health"
+    ],
+    "camera": "Follow-cam at waist height for an active, encouraging perspective",
+    "lighting": "Soft, cool blue tones for evening routines and sleep prep",
+    "audio": "Rhythmic, mid-tempo acoustic tracks that feel steady and upbeat",
+    "createdAt": "2026-05-02T17:14:14.692Z"
   }
 ]
